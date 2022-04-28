@@ -1,0 +1,71 @@
+:root {
+	--color-black: hsla(220, 13%, 18%, 1);
+	--color-gray-dark: hsla(220, 13%, 25%, 1);
+	--color-white: hsla(220, 13%, 98%, 1);
+	--color-gray-light: hsla(220, 13%, 94%, 1);
+	--color-emerald: hsla(168, 92%, 25%, 1);
+	--color-vermillion: hsla(168, 92%, 43%, 1);
+
+	--color-bg: var(--color-black);
+	--color-bg-well: var(--color-gray-dark);
+	--color-accent: var(--color-vermillion);
+	--color-text: var(--color-white);
+}
+
+@media screen and (prefers-color-scheme: light) {
+	:root {
+		--color-accent: var(--color-emerald);
+		--color-bg: var(--color-white);
+		--color-bg-well:var(--color-gray-light);
+		--color-text: var(--color-black);
+	}
+
+	body {
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
+	}
+}
+
+*,
+*::after,
+*::before {
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+body {
+	background-color: var(--color-bg);
+	color: var(--color-text);
+	font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui,
+		helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;
+	font-size: 1.6rem;
+	line-height: 1.4;
+	margin: 0;
+	min-height: 100vh;
+}
+
+code {
+	--color-bg: var(--color-gray-light);
+
+	background-color: var(--color-bg);
+	color: var(--color-accent);
+	border-radius: 4px;
+	display: inline-block;
+	font-family: Menlo, Consolas, Monaco, Liberation Mono, Lucida Console, monospace;
+	font-size: 0.9em;
+	font-weight: 600;
+	padding: 0.15em 0.15em;
+}
+
+@media screen and (prefers-color-scheme: light) {
+	code {
+		--color-bg: var(--color-gray-light);
+	}
+}
+
+ul {
+	padding: 0;
+}

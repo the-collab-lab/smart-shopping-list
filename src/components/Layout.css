@@ -1,0 +1,37 @@
+.Layout {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  margin: 0 auto;
+  max-width: 95%;
+  padding: 2rem 0;
+  width: 54rem;
+}
+
+.Layout-header {
+	text-align: center;
+}
+
+.Nav {
+  display: flex;
+  margin-top: auto;
+  justify-content: space-between;
+}
+
+.Nav-link {
+	color: var(--color-accent);
+  display: inline-block;
+  font-size: 1.25em;
+  flex: 1 1 10ch;
+  padding: 0.5em;
+  text-align: center;
+	text-decoration: none;
+  transition: text-shadow 0s;
+}
+
+
+.Nav-link.active {
+  text-shadow: 0 0 0.7px var(--color-accent), 0 0 0.7px var(--color-accent);
+	text-decoration: underline;
+}
+
