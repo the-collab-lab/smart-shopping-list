@@ -2,7 +2,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { Home } from './views/Home';
 import { List } from './views/List';
 import { AddItem } from './views/AddItem';
-import { Layout } from './components/Layout';
+import { Layout } from './views/Layout';
 
 import { useStateWithStorage } from './utils';
 

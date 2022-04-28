@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { streamListItems } from '../api/firebase';
+import { streamListItems } from '../api';
 import { ListItem } from '../components/ListItem';
 
 export function List({ listToken }) {
