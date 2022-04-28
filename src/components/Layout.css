@@ -1,37 +1,49 @@
+/**
+ * The `env()` function used in this block of code
+ * allows us to reference special variables that might be defined
+ * by certain browsers. In this case, we are making sure that
+ * the app stays within the 'safe' viewable area of a mobile phone,
+ * and isn't covered up by the phone's UI.
+ * @see: https://developer.mozilla.org/en-US/docs/Web/CSS/env
+ */
 .Layout {
-  display: flex;
-  flex-direction: column;
-  height: 100vh;
-  margin: 0 auto;
-  max-width: 95%;
-  padding: 2rem 0;
-  width: 54rem;
+	display: flex;
+	flex-direction: column;
+	margin: 0 auto;
+	max-width: 95%;
+	padding-top: calc(1rem + env(safe-area-inset-top, 1rem));
+	padding-bottom: calc(1rem + env(safe-area-inset-bottom, 1rem));
+	width: 54rem;
 }
 
 .Layout-header {
 	text-align: center;
 }
 
+.Layout-header > h1 {
+	margin-top: 0;
+}
+
 .Nav {
-  display: flex;
-  margin-top: auto;
-  justify-content: space-between;
+	bottom: 0;
+	display: flex;
+	margin-top: auto;
+	justify-content: space-between;
+	position: sticky;
 }
 
 .Nav-link {
 	color: var(--color-accent);
-  display: inline-block;
-  font-size: 1.25em;
-  flex: 1 1 10ch;
-  padding: 0.5em;
-  text-align: center;
+	display: inline-block;
+	font-size: 1.25em;
+	flex: 1 1 10ch;
+	padding: 0.5em;
+	text-align: center;
 	text-decoration: none;
-  transition: text-shadow 0s;
+	transition: text-shadow 0s;
 }
-
 
 .Nav-link.active {
-  text-shadow: 0 0 0.7px var(--color-accent), 0 0 0.7px var(--color-accent);
+	text-shadow: 0 0 0.7px var(--color-accent), 0 0 0.7px var(--color-accent);
 	text-decoration: underline;
 }
-
