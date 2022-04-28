@@ -27,23 +27,25 @@
 .Nav {
 	bottom: 0;
 	display: flex;
+	flex-direction: row;
 	margin-top: auto;
 	justify-content: space-between;
 	position: sticky;
 }
 
 .Nav-link {
-	color: var(--color-accent);
+	--color-text: var(--color-accent);
+
+	color: var(--color-text);
 	display: inline-block;
 	font-size: 1.25em;
-	flex: 1 1 10ch;
+	flex: 1 1 auto;
 	padding: 0.5em;
 	text-align: center;
-	text-decoration: none;
-	transition: text-shadow 0s;
+	text-underline-offset: 0.1em;
 }
 
 .Nav-link.active {
-	text-shadow: 0 0 0.7px var(--color-accent), 0 0 0.7px var(--color-accent);
-	text-decoration: underline;
+	text-decoration-thickness: 0.22em;
+	text-underline-offset: 0.1em;
 }
