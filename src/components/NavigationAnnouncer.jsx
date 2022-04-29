@@ -24,7 +24,7 @@ export function NavigationAnnouncer() {
 
 	return (
 		<span
-			className="Layout-NavigationAnnouncer"
+			className="NavigationAnnouncer"
 			role="status"
 			aria-live="polite"
 			aria-atomic="true"
