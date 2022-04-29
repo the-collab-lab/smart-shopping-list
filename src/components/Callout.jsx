@@ -1,9 +1,9 @@
 import './Callout.css';
 
-export function Callout({ children, style }) {
+export function Callout({ className, children, ...rest }) {
 	return (
-		<div className="Callout" style={style}>
-			{children}
+		<div className="Callout" {...rest}>
+			<p className="Callout-text">{children}</p>
 		</div>
 	);
 }
