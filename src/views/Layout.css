@@ -1,11 +1,3 @@
-/**
- * The `env()` function used in this block of code
- * allows us to reference special variables that might be defined
- * by certain browsers. In this case, we are making sure that
- * the app stays within the 'safe' viewable area of a mobile phone,
- * and isn't covered up by the phone's UI.
- * @see: https://developer.mozilla.org/en-US/docs/Web/CSS/env
- */
 .Layout {
 	display: flex;
 	flex-direction: column;
@@ -14,6 +6,14 @@
 	width: 54rem;
 }
 
+/**
+ * The `env()` function used in this block of code
+ * allows us to reference special variables that might be defined
+ * by certain browsers. In this case, we are making sure that
+ * the app stays within the 'safe' viewable area of a mobile phone,
+ * and isn't covered up by the phone's UI.
+ * @see: https://developer.mozilla.org/en-US/docs/Web/CSS/env
+ */
 .Layout-header {
 	background-color: var(--color-bg);
 	padding-top: calc(1rem + env(safe-area-inset-top, 1rem));
