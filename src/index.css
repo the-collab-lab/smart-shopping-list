@@ -23,6 +23,13 @@
 	}
 }
 
+:root.theme-light {
+	--color-accent: var(--color-cobalt-blue);
+	--color-bg: var(--color-white);
+	--color-bg-well: var(--color-gray-light);
+	--color-text: var(--color-black);
+}
+
 *,
 *::after,
 *::before {
@@ -74,6 +81,10 @@ code {
 	code {
 		--color-bg: var(--color-gray-light);
 	}
+}
+
+:root.theme-light code {
+	--color-bg: var(--color-gray-light);
 }
 
 ul {
