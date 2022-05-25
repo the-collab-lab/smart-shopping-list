@@ -7,10 +7,12 @@
 	--color-vermillion-green: hsla(168, 92%, 43%, 1);
 	--color-cobalt-blue: hsla(215, 100%, 34%, 1);
 	--color-pastel-blue: hsla(215, 100%, 73%, 1);
+	--color-red: hsl(0, 68%, 42%);
 
+	--color-accent: var(--color-pastel-blue);
 	--color-bg: var(--color-black);
 	--color-bg-well: var(--color-gray-dark);
-	--color-accent: var(--color-pastel-blue);
+	--color-error: var(--color-red);
 	--color-text: var(--color-white);
 }
 
