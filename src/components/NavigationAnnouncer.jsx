@@ -3,11 +3,6 @@ import { useLocation } from 'react-router-dom';
 
 import './NavigationAnnouncer.css';
 
-const PAGE_TITLE_BY_PATH = {
-	list: 'list',
-	'add-item': 'add item',
-};
-
 export function NavigationAnnouncer() {
 	const [message, setMessage] = useState('');
 	const location = useLocation();
@@ -17,7 +12,7 @@ export function NavigationAnnouncer() {
 		if (candidateTitle === '') {
 			candidateTitle = 'home';
 		} else {
-			candidateTitle = PAGE_TITLE_BY_PATH[candidateTitle];
+			candidateTitle = candidateTitle.replace('-', ' ');
 		}
 		setMessage(`Navigated to ${candidateTitle} page – ${document.title}`);
 	}, [location.pathname]);
