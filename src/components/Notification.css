@@ -1,6 +1,7 @@
 .Notification {
 	--color-border: hsl(0, 0%, 27%);
 	--color-border-left: var(--color-accent);
+	--color-focus: var(--color-accent);
 
 	align-items: flex-start;
 	background-color: var(--color-bg-well);
@@ -17,6 +18,11 @@
 	.Notification {
 		--color-border: hsl(0, 0%, 87%);
 	}
+}
+
+.Notification--error {
+	--color-border-left: var(--color-error);
+	--color-focus: var(--color-error);
 }
 
 .Notification-body {
@@ -38,7 +44,7 @@
 }
 
 .Notification-btn:focus-visible {
-	outline: 2px solid var(--color-accent);
+	outline: 2px solid var(--color-focus);
 }
 
 .Notification-btn > svg {
