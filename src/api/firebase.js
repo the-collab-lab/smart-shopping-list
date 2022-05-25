@@ -25,7 +25,7 @@ export const db = getFirestore(app);
 export function streamListItems(listId, handleSuccess) {
 	const itemsQuery = query(
 		collection(db, listId),
-		orderBy('createdAt', 'desc'),
+		orderBy('dateCreated', 'desc'),
 	);
 	return onSnapshot(itemsQuery, handleSuccess);
 }
@@ -35,13 +35,13 @@ export async function addItem(listId, { itemName, daysUntilPurchase }) {
 	// TODO: Replace this call to console.log with the appropriate
 	// Firebase function, so this information is sent to your database!
 	return console.log(listCollectionRef, {
-		createdAt: new Date(),
-		isActive: false,
+		dateCreated: new Date(),
 		// NOTE: This is null because the item has just been created.
 		// We'll put a Date here when the item is purchased!
-		lastPurchasedAt: null,
+		dateLastPurchased: null,
+		dateNextPurchased: getFutureDate(daysUntilPurchase),
+		isActive: false,
 		name: itemName,
-		nextPurchaseAt: getFutureDate(daysUntilPurchase),
 		totalPurchases: 0,
 	});
 }
