@@ -1,6 +1,7 @@
 import { defineConfig } from 'vite';
 import eslint from '@nabla/vite-plugin-eslint';
 import react from '@vitejs/plugin-react';
+import svgr from 'vite-plugin-svgr';
 import { VitePWA } from 'vite-plugin-pwa';
 
 const PWAConfig = {
@@ -58,6 +59,7 @@ export default defineConfig({
 	plugins: [
 		eslint({ cache: false, formatter: 'stylish' }),
 		react(),
+		svgr({ exportAsDefault: true }),
 		VitePWA(PWAConfig),
 	],
 	server: { open: true },
