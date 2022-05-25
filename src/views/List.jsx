@@ -17,11 +17,19 @@ export function List({ listToken }) {
 		});
 	}, [listToken]);
 
+	const emptyListMessage = <p>Looks like this list is empty!</p>;
+
 	return (
-		<ul>
-			{data.map((item) => {
-				return <ListItem key={item.id} id={item.id} name={item.name} />;
-			})}
-		</ul>
+		<>
+			<p>
+				Hello from the <code>/list</code> page!
+			</p>
+			{data.length === 0 && emptyListMessage}
+			<ul>
+				{data.map((item) => {
+					return <ListItem key={item.id} id={item.id} name={item.name} />;
+				})}
+			</ul>
+		</>
 	);
 }
