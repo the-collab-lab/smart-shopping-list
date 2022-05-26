@@ -16,8 +16,8 @@ export function App() {
 	 * the user's list token.
 	 */
 	const [listToken, setListToken] = useStateWithStorage(
-		'tcl-shopping-list-token',
 		null,
+		'tcl-shopping-list-token',
 	);
 	return (
 		<Router>
