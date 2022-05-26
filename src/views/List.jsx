@@ -19,18 +19,17 @@ export function List({ listToken }) {
 		});
 	}, [listToken]);
 
-	const emptyListPrompt = <p>Looks like this list is empty!</p>;
-
 	return (
 		<>
 			<p>
 				Hello from the <code>/list</code> page!
 			</p>
-			{listToken && data.length === 0 && emptyListPrompt}
 			<ul>
-				{data.map((item) => {
-					return <ListItem key={item.id} id={item.id} name={item.name} />;
-				})}
+				{/**
+				 * TODO: write some JavaScript that renders the `data` array
+				 * using the `ListItem` component that's imported at the top
+				 * of this file.
+				 */}
 			</ul>
 		</>
 	);

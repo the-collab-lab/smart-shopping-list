@@ -1,22 +1,8 @@
-import { useEffect, useState } from 'react';
-import { NavLink, Outlet, useLocation } from 'react-router-dom';
-import { LiveAnnouncer } from '../components/LiveAnnoncer';
+import { NavLink, Outlet } from 'react-router-dom';
 
 import './Layout.css';
 
 export function Layout() {
-	const [navigationAnnouncement, setNavigationAnnouncement] = useState('');
-	const location = useLocation();
-
-	useEffect(() => {
-		let pageTitle = location.pathname.slice(1).replace('-', ' ');
-		if (pageTitle === '') {
-			pageTitle = 'home';
-		}
-		setNavigationAnnouncement(
-			`Navigated to ${pageTitle} page – ${document.title}`,
-		);
-	}, [location.pathname]);
 	return (
 		<>
 			<div className="Layout">
@@ -38,7 +24,6 @@ export function Layout() {
 					</NavLink>
 				</nav>
 			</div>
-			<LiveAnnouncer visuallyHidden>{navigationAnnouncement}</LiveAnnouncer>
 		</>
 	);
 }
