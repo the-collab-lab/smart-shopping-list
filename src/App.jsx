@@ -1,10 +1,10 @@
 import { useEffect, useState } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
-import { Home } from './views/Home';
-import { List } from './views/List';
 import { AddItem } from './views/AddItem';
+import { Home } from './views/Home';
 import { Layout } from './views/Layout';
+import { List } from './views/List';
 
 import { streamListItems } from './api';
 import { useStateWithStorage } from './utils';
