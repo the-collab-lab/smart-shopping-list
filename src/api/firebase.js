@@ -36,3 +36,19 @@ export async function addItem(listId, { itemName, daysUntilPurchase }) {
 		totalPurchases: 0,
 	});
 }
+
+export async function updateItem() {
+	/**
+	 * TODO: Fill this out so that it uses the correct Firestore function
+	 * to update an existing item! You'll need to figure out what arguments
+	 * this function must accept!
+	 */
+}
+
+export async function deleteItem() {
+	/**
+	 * TODO: Fill this out so that it uses the correct Firestore function
+	 * to delete an existing item! You'll need to figure out what arguments
+	 * this function must accept!
+	 */
+}
