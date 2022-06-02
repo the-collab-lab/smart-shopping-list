@@ -13,8 +13,8 @@ const firebaseConfig = {
 	appId: '1:589248305634:web:6203eec343233bf60301bb',
 };
 
-export const app = initializeApp(firebaseConfig);
-export const db = getFirestore(app);
+const app = initializeApp(firebaseConfig);
+const db = getFirestore(app);
 
 export function streamListItems(listId, handleSuccess) {
 	const listCollectionRef = collection(db, listId);
