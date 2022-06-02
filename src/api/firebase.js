@@ -1,11 +1,5 @@
 import { initializeApp } from 'firebase/app';
-import {
-	collection,
-	getFirestore,
-	onSnapshot,
-	orderBy,
-	query,
-} from 'firebase/firestore';
+import { collection, getFirestore, onSnapshot } from 'firebase/firestore';
 
 import { getFutureDate } from '../utils';
 
@@ -23,11 +17,8 @@ export const app = initializeApp(firebaseConfig);
 export const db = getFirestore(app);
 
 export function streamListItems(listId, handleSuccess) {
-	const itemsQuery = query(
-		collection(db, listId),
-		orderBy('dateCreated', 'desc'),
-	);
-	return onSnapshot(itemsQuery, handleSuccess);
+	const listCollectionRef = collection(db, listId);
+	return onSnapshot(listCollectionRef, handleSuccess);
 }
 
 export async function addItem(listId, { itemName, daysUntilPurchase }) {
