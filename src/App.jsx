@@ -29,13 +29,40 @@ export function App() {
 	useEffect(() => {
 		if (!listToken) return;
 
-		return streamListItems(listToken, (querySnap) => {
+		/**
+		 * Firebase allows us to listen to a collection and get realtime updates
+		 * when a document in that collection changes. In these next few lines
+		 * of code, we define a callback function that runs whenever Firestore
+		 * notifies us of a realtime update.
+		 *
+		 * The callback function receives a snapshot from the database;
+		 * that snapshot has the information we need.
+		 *
+		 * @see: https://firebase.google.com/docs/firestore/query-data/listen
+		 */
+		return streamListItems(listToken, (snapshot) => {
+			/**
+			 * We need a place to store the data after we get it.
+			 * This array is going to become our `data` state.
+			 */
 			const nextData = [];
-			querySnap.docs.forEach((docRef) => {
+
+			/** * The snapshot contains an array of document references. */
+			snapshot.docs.forEach((docRef) => {
+				/**
+				 * We must call a special `.data()` function to get the data
+				 * out of the referenced document */
 				const data = docRef.data();
+
+				/**
+				 * The document's ID is not part of the data, but it's very useful
+				 * so we add it to our data; then we push the data into our array.
+				 */
 				data.id = docRef.id;
 				nextData.push(data);
 			});
+
+			/** Finally, we update our React state. */
 			setData(nextData);
 		});
 	}, [listToken]);
