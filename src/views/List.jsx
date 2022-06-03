@@ -1,4 +1,4 @@
-import { ListItem } from '../components/ListItem';
+import { ListItem } from '../components';
 
 export function List({ data }) {
 	return (
