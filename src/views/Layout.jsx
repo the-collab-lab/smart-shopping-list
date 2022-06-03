@@ -1,6 +1,14 @@
-import { NavLink, Outlet } from 'react-router-dom';
+import { Outlet } from 'react-router-dom';
 
 import './Layout.css';
+
+/**
+ * TODO: The links defined in this file don't work!
+ *
+ * Instead of anchor element, they should use a component
+ * from `react-router-dom` to navigate to the routes
+ * defined in `App.jsx`.
+ */
 
 export function Layout() {
 	return (
@@ -13,15 +21,15 @@ export function Layout() {
 					<Outlet />
 				</main>
 				<nav className="Nav">
-					<NavLink to="/" className="Nav-link">
+					<a href="#" className="Nav-link">
 						Home
-					</NavLink>
-					<NavLink to="/list" className="Nav-link">
+					</a>
+					<a href="#" className="Nav-link">
 						List
-					</NavLink>
-					<NavLink to="/add-item" className="Nav-link">
+					</a>
+					<a href="#" className="Nav-link">
 						Add Item
-					</NavLink>
+					</a>
 				</nav>
 			</div>
 		</>
