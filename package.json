@@ -1,10 +1,9 @@
 {
 	"name": "smart-shopping-list-next",
-	"version": "0.1.0",
-	"private": true,
+	"private": false,
 	"engines": {
-		"node": "^16.0.0",
-		"npm": "^8.0.0"
+		"node": "^16.15.0",
+		"npm": "^8.11.0"
 	},
 	"dependencies": {
 		"firebase": "^9.8.2",
