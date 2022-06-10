@@ -21,7 +21,7 @@ export function streamListItems(listId, handleSuccess) {
 	return onSnapshot(listCollectionRef, handleSuccess);
 }
 
-export async function addItem(listId, { itemName, daysUntilPurchase }) {
+export async function addItem(listId, { itemName, daysUntilNextPurchase }) {
 	const listCollectionRef = collection(db, listId);
 	// TODO: Replace this call to console.log with the appropriate
 	// Firebase function, so this information is sent to your database!
@@ -30,7 +30,7 @@ export async function addItem(listId, { itemName, daysUntilPurchase }) {
 		// NOTE: This is null because the item has just been created.
 		// We'll put a Date here when the item is purchased!
 		dateLastPurchased: null,
-		dateNextPurchased: getFutureDate(daysUntilPurchase),
+		dateNextPurchased: getFutureDate(daysUntilNextPurchase),
 		isActive: false,
 		name: itemName,
 		totalPurchases: 0,
