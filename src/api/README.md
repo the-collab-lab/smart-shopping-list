@@ -37,6 +37,6 @@ When we request a shopping list, it is sent to us as an array of objects with a 
 | `dateCreated`       | `Date`    | The date at which the item was created.                           |
 | `dateLastPurchased` | `Date`    | The date at which the item was last purchased.                    |
 | `dateNextPurchased` | `Date`    | The date at which we expect the user to purchase this item again. |
-| `isActive`          | `boolean` | Whether or not the item should be shown as "checked" in the UI.   |
+| `isChecked`         | `boolean` | Whether or not the item should be shown as "checked" in the UI.   |
 | `name`              | `string`  | The name of the item.                                             |
 | `totalPurchases`    | `number`  | The total number of times the item has been purchased.            |
