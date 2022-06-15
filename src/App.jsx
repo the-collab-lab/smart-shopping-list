@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 import { AddItem, Home, Layout, List } from './views';
 
-import { streamListItems } from './api';
+import { getItemData, streamListItems } from './api';
 import { useStateWithStorage } from './utils';
 
 export function App() {
@@ -27,37 +27,20 @@ export function App() {
 		if (!listToken) return;
 
 		/**
-		 * Firebase allows us to listen to a collection and get realtime updates
-		 * when a document in that collection changes. In these next few lines
-		 * of code, we define a callback function that runs whenever Firestore
-		 * notifies us of a realtime update.
+		 * streamListItems` takes a `listToken` so it can commuinicate
+		 * with our database; then calls a callback function with
+		 * a `snapshot` from the database.
 		 *
-		 * The callback function receives a snapshot from the database;
-		 * that snapshot has the information we need.
-		 *
-		 * @see: https://firebase.google.com/docs/firestore/query-data/listen
+		 * Refer to `api/firebase.js`.
 		 */
 		return streamListItems(listToken, (snapshot) => {
 			/**
-			 * We need a place to store the data after we get it.
-			 * This array is going to become our `data` state.
+			 * Read the documents in the snapshot and do some work
+			 * on them, so we can save them in our React state.
+			 *
+			 * Refer to `api/firebase.js`
 			 */
-			const nextData = [];
-
-			/** * The snapshot contains an array of document references. */
-			snapshot.docs.forEach((docRef) => {
-				/**
-				 * We must call a special `.data()` function to get the data
-				 * out of the referenced document */
-				const data = docRef.data();
-
-				/**
-				 * The document's ID is not part of the data, but it's very useful
-				 * so we add it to our data; then we push the data into our array.
-				 */
-				data.id = docRef.id;
-				nextData.push(data);
-			});
+			const nextData = getItemData(snapshot);
 
 			/** Finally, we update our React state. */
 			setData(nextData);
