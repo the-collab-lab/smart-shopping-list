@@ -4,13 +4,13 @@ import { collection, getFirestore, onSnapshot } from 'firebase/firestore';
 import { getFutureDate } from '../utils';
 
 const firebaseConfig = {
-	apiKey: 'AIzaSyBkAgJqEvPAuUV5dzG8zyEzjlFFsDwf2uo',
-	authDomain: 'tcl-shopping-list-ej.firebaseapp.com',
-	databaseURL: 'https://tcl-shopping-list-ej.firebaseio.com',
-	projectId: 'tcl-shopping-list-ej',
-	storageBucket: 'tcl-shopping-list-ej.appspot.com',
-	messagingSenderId: '589248305634',
-	appId: '1:589248305634:web:6203eec343233bf60301bb',
+	apiKey: 'FILL_ME_IN',
+	authDomain: 'FILL_ME_IN',
+	databaseURL: 'FILL_ME_IN',
+	projectId: 'FILL_ME_IN',
+	storageBucket: 'FILL_ME_IN',
+	messagingSenderId: 'FILL_ME_IN',
+	appId: 'FILL_ME_IN',
 };
 
 const app = initializeApp(firebaseConfig);
