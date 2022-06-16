@@ -58,7 +58,7 @@ export function getItemData(snapshot) {
  * @param {string} listId The id of the list we're adding to.
  * @param {Object} itemData Information about the new item.
  * @param {string} itemData.itemName The name of the item.
- * @param {string} itemData.itemName The number of days until the user thinks they'll need to buy the item again.
+ * @param {number} itemData.daysUntilNextPurchase The number of days until the user thinks they'll need to buy the item again.
  */
 export async function addItem(listId, { itemName, daysUntilNextPurchase }) {
 	const listCollectionRef = collection(db, listId);
