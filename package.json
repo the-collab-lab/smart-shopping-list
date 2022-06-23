@@ -31,7 +31,7 @@
 		"vitest": "^0.15.2"
 	},
 	"scripts": {
-		"start": "vite",
+		"start": "vite --open",
 		"build": "vite build",
 		"test": "vitest",
 		"preview": "vite preview",

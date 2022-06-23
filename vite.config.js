@@ -62,7 +62,6 @@ export default defineConfig({
 		svgr({ exportAsDefault: true }),
 		VitePWA(PWAConfig),
 	],
-	server: { open: true },
 	test: {
 		globals: true,
 		environment: 'jsdom',
