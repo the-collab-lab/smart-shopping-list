@@ -1,20 +1,6 @@
-import { initializeApp } from 'firebase/app';
-import { collection, getFirestore, onSnapshot } from 'firebase/firestore';
-
+import { collection, onSnapshot } from 'firebase/firestore';
+import { db } from './config';
 import { getFutureDate } from '../utils';
-
-const firebaseConfig = {
-	apiKey: 'FILL_ME_IN',
-	authDomain: 'FILL_ME_IN',
-	databaseURL: 'FILL_ME_IN',
-	projectId: 'FILL_ME_IN',
-	storageBucket: 'FILL_ME_IN',
-	messagingSenderId: 'FILL_ME_IN',
-	appId: 'FILL_ME_IN',
-};
-
-const app = initializeApp(firebaseConfig);
-const db = getFirestore(app);
 
 /**
  * Subscribe to changes on a specific list in the Firestore database (listId), and run a callback (handleSuccess) every time a change happens.
