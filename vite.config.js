@@ -40,6 +40,7 @@ export default defineConfig({
 	build: {
 		outDir: './build',
 		target: 'esnext',
+		commonjsOptions: { include: [] },
 		rollupOptions: {
 			output: {
 				manualChunks: (id) => {
@@ -56,12 +57,14 @@ export default defineConfig({
 			},
 		},
 	},
+	optimizeDeps: { disabled: false },
 	plugins: [
 		eslint({ cache: false, formatter: 'stylish' }),
 		react(),
 		svgr({ exportAsDefault: true }),
 		VitePWA(PWAConfig),
 	],
+	server: { open: true, port: 3000 },
 	test: {
 		globals: true,
 		environment: 'jsdom',
