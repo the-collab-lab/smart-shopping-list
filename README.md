@@ -35,9 +35,9 @@ On GitHub, navigate to the repo for your cohort’s project (you’re probably t
 
 1. Click on the "Code" tab. It may already be selected.
 2. Click the green "Code" button to reveal a "Clone" popup.
-3. Click the "SSH" tab
+3. The "HTTPS" tab should be automatically selected. If not, click "HTTPS."
 4. Click the copy button to copy the url of this repository to your clipboard.
-   ![screenshot of "Code" tab on GitHub](_resources/images/00_get_repo_url_from_gui.jpg)
+   ![screenshot of "Code" tab on GitHub](_resources/images/00_get_repo_url_from_gui.png)
 
 From your terminal, `cd` into the directory where you want this project to live.
 ![screenshot of how to navigate folders in terminal](_resources/images/01_cd_dev_directory.jpg)
