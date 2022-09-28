@@ -140,3 +140,4 @@ Your team will kick off the project with your first weekly sync this weekend. In
 ### Let's Do This!
 
 ![Photo of programmer Margaret Hamilton standing next to the navigation software that she and her MIT team produced for the Apollo Project.](./_resources/images/Margaret_Hamilton.gif)
+[Margaret Hamilton](https://www.smithsonianmag.com/smithsonian-institution/margaret-hamilton-led-nasa-software-team-landed-astronauts-moon-180971575/) and her team's code for the Apollo Project
