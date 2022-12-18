@@ -31,7 +31,7 @@ The app will work in many of the same ways as [iNeedToBuy.xyz](https://app.ineed
 
 ### Clone the project locally
 
-On GitHub, navigate to the repo for your cohort’s project (you’re probably there right now), Then:
+On GitHub, navigate to the repo for your cohort’s project (you’re probably there right now), then:
 
 1. Click on the "Code" tab. It may already be selected.
 2. Click the green "Code" button to reveal a "Clone" popup.
