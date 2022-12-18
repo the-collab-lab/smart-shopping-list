@@ -25,9 +25,9 @@ The app will work in many of the same ways as [iNeedToBuy.xyz](https://app.ineed
 
 ### Install Node and NPM
 
-`npm` is distributed with Node.js, which means that when you download Node.js, you automatically get `npm` installed on your computer. You can install Node by [downloading it from the Node.js website](https://nodejs.org/en/).
+`npm` is distributed with Node.js, which means that when you download Node.js, you automatically get `npm` installed on your computer. You can install Node by [downloading it from the Node.js website](https://nodejs.org/en/) or using a Node version manager like [nvm](https://github.com/nvm-sh/nvm) on a macOS or Linux device or [nvm-windows](https://github.com/coreybutler/nvm-windows) on a Windows device.
 
-💡 **Note:** This project requires Node version 16 or later. If you have an earlier version of Node, now would be a great time to upgrade! We recommend the _LTS_ version.
+💡 **Note:** This project requires the latest Long Term Support (LTS) version of Node. If you have an earlier version of Node, now would be a great time to upgrade!
 
 ### Clone the project locally
 
