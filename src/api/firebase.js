@@ -8,7 +8,7 @@ import { getFutureDate } from '../utils';
  * @param {Function} handleSuccess The callback function to call when we get a successful update from the database.
  * @returns {Function}
  *
- * @see: https://firebase.google.com/docs/firestore/query-data/listen
+ * @see https://firebase.google.com/docs/firestore/query-data/listen
  */
 export function streamListItems(listId, handleSuccess) {
 	const listCollectionRef = collection(db, listId);
@@ -22,9 +22,14 @@ export function streamListItems(listId, handleSuccess) {
  * @returns {Object[]} An array of objects representing the user's list.
  */
 export function getItemData(snapshot) {
+	/**
+	 * Firebase document snapshots contain a `.docs` property that is an array of
+	 * document references. We use `.map()` to iterate over them.
+	 * @see https://firebase.google.com/docs/reference/js/firestore_.documentsnapshot
+	 */
 	return snapshot.docs.map((docRef) => {
 		/**
-		 * We must call a special `.data()` method to get the data
+		 * We call the `.data()` method to get the data
 		 * out of the referenced document
 		 */
 		const data = docRef.data();
@@ -53,7 +58,7 @@ export async function addItem(listId, { itemName, daysUntilNextPurchase }) {
 	return console.log(listCollectionRef, {
 		dateCreated: new Date(),
 		// NOTE: This is null because the item has just been created.
-		// We'll put a Date here when the item is purchased!
+		// We'll use updateItem to put a Date here when the item is purchased!
 		dateLastPurchased: null,
 		dateNextPurchased: getFutureDate(daysUntilNextPurchase),
 		// This property will be used when we build out more of our UI.
@@ -66,7 +71,7 @@ export async function addItem(listId, { itemName, daysUntilNextPurchase }) {
 export async function updateItem() {
 	/**
 	 * TODO: Fill this out so that it uses the correct Firestore function
-	 * to update an existing item! You'll need to figure out what arguments
+	 * to update an existing item. You'll need to figure out what arguments
 	 * this function must accept!
 	 */
 }
@@ -74,7 +79,7 @@ export async function updateItem() {
 export async function deleteItem() {
 	/**
 	 * TODO: Fill this out so that it uses the correct Firestore function
-	 * to delete an existing item! You'll need to figure out what arguments
+	 * to delete an existing item. You'll need to figure out what arguments
 	 * this function must accept!
 	 */
 }
