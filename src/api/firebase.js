@@ -61,8 +61,6 @@ export async function addItem(listId, { itemName, daysUntilNextPurchase }) {
 		// We'll use updateItem to put a Date here when the item is purchased!
 		dateLastPurchased: null,
 		dateNextPurchased: getFutureDate(daysUntilNextPurchase),
-		// This property will be used when we build out more of our UI.
-		isChecked: false,
 		name: itemName,
 		totalPurchases: 0,
 	});
