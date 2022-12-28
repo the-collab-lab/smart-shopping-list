@@ -35,7 +35,7 @@ export function App() {
 		 */
 		return streamListItems(listToken, (snapshot) => {
 			/**
-			 * Here, we the documents in the snapshot and do some work
+			 * Here, we read the documents in the snapshot and do some work
 			 * on them, so we can save them in our React state.
 			 *
 			 * Refer to `api/firebase.js`
