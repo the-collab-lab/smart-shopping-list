@@ -6,29 +6,29 @@
 		"npm": ">=8.19.0"
 	},
 	"dependencies": {
-		"firebase": "^9.15.0",
+		"firebase": "^9.17.2",
 		"react": "^18.2.0",
 		"react-dom": "^18.2.0",
-		"react-router-dom": "^6.5.0"
+		"react-router-dom": "^6.9.0"
 	},
 	"devDependencies": {
-		"@nabla/vite-plugin-eslint": "^1.4.2",
+		"@nabla/vite-plugin-eslint": "^1.5.0",
 		"@testing-library/jest-dom": "^5.16.5",
-		"@testing-library/react": "^13.4.0",
+		"@testing-library/react": "^14.0.0",
 		"@testing-library/user-event": "^14.4.3",
-		"@vitejs/plugin-react": "^3.0.0",
-		"eslint": "^8.30.0",
-		"eslint-config-prettier": "^8.5.0",
+		"@vitejs/plugin-react": "^3.1.0",
+		"eslint": "^8.36.0",
+		"eslint-config-prettier": "^8.7.0",
 		"eslint-config-react-app": "^7.0.1",
-		"eslint-plugin-jsx-a11y": "^6.6.1",
-		"husky": "^8.0.2",
-		"jsdom": "^20.0.3",
-		"lint-staged": "^13.1.0",
-		"prettier": "^2.8.1",
-		"vite": "^4.0.2",
-		"vite-plugin-pwa": "^0.14.0",
+		"eslint-plugin-jsx-a11y": "^6.7.1",
+		"husky": "^8.0.3",
+		"jsdom": "^21.1.1",
+		"lint-staged": "^13.2.0",
+		"prettier": "^2.8.4",
+		"vite": "^4.1.4",
+		"vite-plugin-pwa": "^0.14.4",
 		"vite-plugin-svgr": "^2.4.0",
-		"vitest": "^0.25.8"
+		"vitest": "^0.29.2"
 	},
 	"scripts": {
 		"start": "vite",
