@@ -1,5 +1,6 @@
 {
 	"name": "smart-shopping-list-next",
+	"type": "module",
 	"private": false,
 	"engines": {
 		"node": ">=18.12.0",
