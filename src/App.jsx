@@ -19,8 +19,8 @@ export function App() {
 	 * to create and join a new list.
 	 */
 	const [listToken, setListToken] = useStateWithStorage(
-		'my test list',
 		'tcl-shopping-list-token',
+		'my test list',
 	);
 
 	useEffect(() => {
