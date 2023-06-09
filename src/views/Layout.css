@@ -10,47 +10,58 @@
 .Layout {
 	display: flex;
 	flex-direction: column;
-	margin: 0 auto;
-	max-width: 100vw;
-	width: 54rem;
+	height: 100dvh;
+}
+
+.Layout > * {
+	padding-inline: min(5dvw, 3.2rem);
 }
 
 .Layout-header {
 	background-color: var(--color-bg);
+	padding-bottom: 0.5rem;
 	padding-top: max(env(safe-area-inset-top), 1rem);
-	position: sticky;
 	text-align: center;
-	top: 0;
 }
 
 .Layout-header > h1 {
-	margin-top: 0;
+	margin: 0;
 }
 
 .Layout-main {
 	margin: 0 auto;
-	max-width: 95vw;
-	width: 95%;
+	padding-block: 0;
+	padding-block-end: 6.26rem;
+	width: min(72ch, 100%);
 }
 
 .Nav {
-	align-items: stretch;
 	background-color: var(--color-bg);
+	border-top: 1px solid var(--color-border);
 	bottom: 0;
 	display: flex;
 	flex-direction: row;
-	justify-content: space-around;
-	margin-top: auto;
 	padding-bottom: max(env(safe-area-inset-bottom), 1rem);
-	position: sticky;
+	padding-top: 1rem;
+	place-content: center;
+	position: fixed;
+	width: 100%;
+}
+
+.Nav-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	width: min(72ch, 100%);
 }
 
 .Nav-link {
 	--color-text: var(--color-accent);
 
 	color: var(--color-text);
-	font-size: 1.45em;
+	font-size: 1.6em;
 	flex: 0 1 auto;
+	line-height: 1;
 	padding: 0.8rem;
 	text-align: center;
 	text-underline-offset: 0.1em;
