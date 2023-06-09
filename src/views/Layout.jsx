@@ -21,15 +21,17 @@ export function Layout() {
 					<Outlet />
 				</main>
 				<nav className="Nav">
-					<a href="#" className="Nav-link">
-						Home
-					</a>
-					<a href="#" className="Nav-link">
-						List
-					</a>
-					<a href="#" className="Nav-link">
-						Add Item
-					</a>
+					<div className="Nav-container">
+						<a href="#" className="Nav-link">
+							Home
+						</a>
+						<a href="#" className="Nav-link">
+							List
+						</a>
+						<a href="#" className="Nav-link">
+							Add Item
+						</a>
+					</div>
 				</nav>
 			</div>
 		</>

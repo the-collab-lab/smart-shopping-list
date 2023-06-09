@@ -11,7 +11,7 @@
 
 	--color-accent: var(--color-pastel-blue);
 	--color-bg: var(--color-black);
-	--color-bg-well: var(--color-gray-dark);
+	--color-border: hsla(220, 13%, 32%, 1);
 	--color-error: var(--color-red);
 	--color-text: var(--color-white);
 }
@@ -20,7 +20,7 @@
 	:root {
 		--color-accent: var(--color-cobalt-blue);
 		--color-bg: var(--color-white);
-		--color-bg-well: var(--color-gray-light);
+		--color-border: hsla(220, 13%, 78%, 1);
 		--color-text: var(--color-black);
 	}
 }
@@ -28,7 +28,7 @@
 :root.theme-light {
 	--color-accent: var(--color-cobalt-blue);
 	--color-bg: var(--color-white);
-	--color-bg-well: var(--color-gray-light);
+	--color-border: hsla(220, 13%, 78%, 1);
 	--color-text: var(--color-black);
 }
 
@@ -40,16 +40,9 @@
 
 /**
  * Make sure the app fills the height of the screen.
- * The fill-available value allows the browser to account
- * for the address bar and other browser chrome on mobile.
  */
-html,
-body,
-#root,
-#root > * {
-	height: 100vh;
-	height: -webkit-fill-available;
-	height: fill-available;
+body {
+	height: 100dvh;
 }
 
 /**
@@ -66,7 +59,7 @@ body {
 	color: var(--color-text);
 	font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui,
 		helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;
-	font-size: 1.6rem;
+	font-size: 1.8rem;
 	line-height: 1.4;
 	margin: 0;
 
@@ -96,8 +89,4 @@ code {
 
 :root.theme-light code {
 	--color-bg: var(--color-gray-light);
-}
-
-ul {
-	padding: 0;
 }
