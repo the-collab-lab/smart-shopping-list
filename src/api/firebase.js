@@ -1,47 +1,46 @@
 import { collection, onSnapshot } from 'firebase/firestore';
+import { useEffect, useState } from 'react';
 import { db } from './config';
 import { getFutureDate } from '../utils';
 
 /**
- * Subscribe to changes on a specific list in the Firestore database (listId), and run a callback (handleSuccess) every time a change happens.
- * @param {string} listId The user's list token
- * @param {Function} handleSuccess The callback function to call when we get a successful update from the database.
- * @returns {Function}
- *
+ * A custom hook that subscribes to a shopping list in our Firestore database
+ * and returns new data whenever the list changes.
+ * @param {string | null} listId
  * @see https://firebase.google.com/docs/firestore/query-data/listen
  */
-export function streamListItems(listId, handleSuccess) {
-	const listCollectionRef = collection(db, listId);
-	return onSnapshot(listCollectionRef, handleSuccess);
-}
+export function useShoppingListData(listId) {
+	// Start with an empty array for our data.
+	/** @type {import('firebase/firestore').DocumentData[]} */
+	const initialState = [];
+	const [data, setData] = useState(initialState);
 
-/**
- * Read the information from the provided snapshot and return an array
- * that can be stored in our React state.
- * @param {Object} snapshot A special Firebase document with information about the current state of the database.
- * @returns {Object[]} An array of objects representing the user's list.
- */
-export function getItemData(snapshot) {
-	/**
-	 * Firebase document snapshots contain a `.docs` property that is an array of
-	 * document references. We use `.map()` to iterate over them.
-	 * @see https://firebase.google.com/docs/reference/js/firestore_.documentsnapshot
-	 */
-	return snapshot.docs.map((docRef) => {
-		/**
-		 * We call the `.data()` method to get the data
-		 * out of the referenced document
-		 */
-		const data = docRef.data();
+	useEffect(() => {
+		if (!listId) return;
 
-		/**
-		 * The document's ID is not part of the data, but it's very useful
-		 * so we get it from the document reference.
-		 */
-		data.id = docRef.id;
+		// When we get a listId, we use it to subscribe to real-time updates
+		// from Firestore.
+		return onSnapshot(collection(db, listId), (snapshot) => {
+			// The snapshot is a real-time update. We iterate over the documents in it
+			// to get the data.
+			const nextData = snapshot.docs.map((docSnapshot) => {
+				// Extract the document's data from the snapshot.
+				const item = docSnapshot.data();
 
-		return data;
-	});
+				// The document's id is not in the data,
+				// but it is very useful, so we add it to the data ourselves.
+				item.id = docSnapshot.id;
+
+				return item;
+			});
+
+			// Update our React state with the new data.
+			setData(nextData);
+		});
+	}, [listId]);
+
+	// Return the data so it can be used by our React components.
+	return data;
 }
 
 /**
