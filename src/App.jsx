@@ -1,14 +1,16 @@
-import { useEffect, useState } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 import { AddItem, Home, Layout, List } from './views';
 
 import { useShoppingListData } from './api';
 
+import { useStateWithStorage } from './utils';
+
 export function App() {
 	/**
 	 * This custom hook takes a token pointing to a shopping list
 	 * in our database and syncs it with localStorage for later use.
+	 * Check ./utils/hooks.js for its implementation.
 	 *
 	 * We use `my test list` by default so we can see the list
 	 * of items that was prepopulated for this project.
@@ -38,24 +40,4 @@ export function App() {
 			</Routes>
 		</Router>
 	);
-}
-
-/**
- * Set some state in React, and also persist that value in localStorage.
- * @param {string} storageKey The key of the value in localStorage.
- * @param {string | null} initialValue The initial value to store in localStorage and React state.
- * @returns {[string | null, React.Dispatch<string | null>]}
- */
-export function useStateWithStorage(storageKey, initialValue) {
-	const [value, setValue] = useState(
-		() => localStorage.getItem(storageKey) ?? initialValue,
-	);
-	useEffect(() => {
-		if (value === null || value === undefined) {
-			return localStorage.removeItem(storageKey);
-		}
-		return localStorage.setItem(storageKey, value);
-	}, [storageKey, value]);
-
-	return [value, setValue];
 }
