@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useEffect, useState } from 'react';
 
 /**
  * Set some state in React, and also persist that value in localStorage.
@@ -7,10 +7,9 @@ import { useState, useEffect } from 'react';
  * @returns {[string | null, React.Dispatch<string | null>]}
  */
 export function useStateWithStorage(storageKey, initialValue) {
-	const [value, setValue] = useState(() => {
-		const currentValue = localStorage.getItem(storageKey);
-		return currentValue ? currentValue : initialValue;
-	});
+	const [value, setValue] = useState(
+		() => localStorage.getItem(storageKey) ?? initialValue,
+	);
 	useEffect(() => {
 		if (value === null || value === undefined) {
 			return localStorage.removeItem(storageKey);
