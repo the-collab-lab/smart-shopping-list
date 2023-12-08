@@ -34,7 +34,12 @@ export const useAuth = () => {
 	const [user, setUser] = useState(null);
 
 	useEffect(() => {
-		auth.onAuthStateChanged((user) => setUser(user));
+		auth.onAuthStateChanged((user) => {
+			setUser(user);
+			if (user) {
+				addUserToDatabase(user);
+			}
+		});
 	}, []);
 
 	return { user };
