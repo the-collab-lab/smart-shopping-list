@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import { auth } from './config.js';
 import { GoogleAuthProvider, signInWithRedirect } from 'firebase/auth';
+import { addUserToDatabase } from './firebase.js';
 
 /**
  * A button that signs the user in using Google OAuth. When clicked,

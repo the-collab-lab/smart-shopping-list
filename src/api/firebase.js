@@ -1,4 +1,12 @@
-import { collection, onSnapshot } from 'firebase/firestore';
+import {
+	arrayUnion,
+	getDoc,
+	setDoc,
+	collection,
+	doc,
+	onSnapshot,
+	updateDoc,
+} from 'firebase/firestore';
 import { useEffect, useState } from 'react';
 import { db } from './config';
 import { getFutureDate } from '../utils';
@@ -6,9 +14,9 @@ import { getFutureDate } from '../utils';
 /**
  * A custom hook that subscribes to the user's shopping lists in our Firestore
  * database and returns new data whenever the lists change.
- * @param {string | null} userId 
- * @param {string | null} userEmail 
- * @returns 
+ * @param {string | null} userId
+ * @param {string | null} userEmail
+ * @returns
  */
 export function useShoppingLists(userId, userEmail) {
 	// Start with an empty array for our data.
@@ -27,12 +35,12 @@ export function useShoppingLists(userId, userEmail) {
 			if (docSnap.exists()) {
 				const listRefs = docSnap.data().sharedLists;
 				const newData = listRefs.map((listRef) => {
+					// We keep the list's id and path so we can use them later.
 					return { name: listRef.id, path: listRef.path };
 				});
 				setData(newData);
 			}
 		});
-
 	}, [userId, userEmail]);
 
 	return data;
@@ -53,7 +61,7 @@ export function useShoppingListData(listPath) {
 	useEffect(() => {
 		if (!listPath) return;
 
-		// When we get a listId, we use it to subscribe to real-time updates
+		// When we get a listPath, we use it to subscribe to real-time updates
 		// from Firestore.
 		return onSnapshot(collection(db, listPath, 'items'), (snapshot) => {
 			// The snapshot is a real-time update. We iterate over the documents in it
@@ -72,7 +80,7 @@ export function useShoppingListData(listPath) {
 			// Update our React state with the new data.
 			setData(nextData);
 		});
-	}, [listId]);
+	}, [listPath]);
 
 	// Return the data so it can be used by our React components.
 	return data;
@@ -126,7 +134,11 @@ export async function createList(userId, userEmail, listName) {
  * @param {string} listPath The path to the list to share.
  * @param {string} recipientEmail The email of the user to share the list with.
  */
-export async function shareList(listPath, recipientEmail) {
+export async function shareList(listPath, currentUserId, recipientEmail) {
+	// Check if current user is owner.
+	if (!listPath.includes(currentUserId)) {
+		return;
+	}
 	// Get the document for the recipient user.
 	const usersCollectionRef = collection(db, 'users');
 	const recipientDoc = await getDoc(doc(usersCollectionRef, recipientEmail));

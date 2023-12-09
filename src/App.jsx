@@ -1,8 +1,10 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
-import {  Home, Layout, List, ManageList } from './views';
+import { Home, Layout, List, ManageList } from './views';
 
-import { useShoppingListData } from './api';
+import { useAuth } from './api';
+
+import { useShoppingListData, useShoppingLists } from './api';
 
 import { useStateWithStorage } from './utils';
 
@@ -44,7 +46,7 @@ export function App() {
 		<Router>
 			<Routes>
 				<Route path="/" element={<Layout />}>
-					<Route index element={<Home />} />
+					<Route index element={<Home lists={lists} />} />
 					<Route path="/list" element={<List data={data} />} />
 					<Route path="/manage-list" element={<ManageList />} />
 				</Route>
