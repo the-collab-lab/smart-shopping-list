@@ -17,7 +17,8 @@ When new developers and mentors join the Collab Lab community they join a group 
 
 ## Why do we do what we do?
 
-Knowing how to code is just one aspect of being a professional web developer. Another super important skill is knowing how to collaborate effectively on a software team—that’s where Collab Lab comes into play!
+- Knowing how to code is just one aspect of being a professional web developer. Another super important skill is knowing how to collaborate effectively on a software team—that’s where Collab Lab comes into play!
+- Why demos are important? Demos are pivotal in showcasing software products' functionality and development status or specific features. Demos serve as vital training grounds for software engineers, honing technical and communication skills for success in technical and behavioral interviews. Beyond mere coding proficiency, demos require the capacity to articulate complex solutions, engage in discussions about design choices, and troubleshoot in real-time—attributes highly valued in the dynamic landscape of software engineering.
 
 ### Pair Programming:
 
@@ -112,7 +113,7 @@ Having watched many cohorts before yours, our advice is to front-load the work a
 Every weekend the team will gather for 1-hour on Zoom for a Weekly Sync. Those meetings will always follow a familiar pattern:
 
 - Demos/discussion (15 minutes)
-  - The call will always start with each pair presenting a quick demo of the feature they built in “production”, the live version of the app that is deployed to the web for the world to see. This is followed by a concise walk-through of the code they wrote to build it. This is a common practice on most software teams that lets you practice talking about your work, which can come in handy in a job interview setting!
+  - The weekly sync will always start with each pair presenting a quick demo of the feature they built in “production,” the live version of the app that is deployed to the web for the world to see. This is followed by a concise walk-through of the code they wrote to build it. Because we all interact with each other's code, conducting both codebase and user interface walkthroughs is essential. Strongly encourage both people from each pair to speak each week and alternate presenting codebase and user interface walkthroughs. This is a common practice on most software teams that lets you practice talking about your work, which can come in handy in a job interview setting!
 - Learning module (30 minutes every other week)
   - Presentations by mentors on topics that align with what your team is learning. Examples include git, code reviewing, pair programming, and communication for developers.
 - Retrospective (30 minutes every other week)
