@@ -1,6 +1,6 @@
 # Project Brief, The Collab Lab
 
-## Smart Shopping List
+## Your Team's Smart Shopping List
 
 ### Locations for things
 
@@ -25,11 +25,11 @@
 
 Watch these learning modules asynchronously throughout the week. These are foundational concepts that will be applied throughout your Collab Lab experience. <br> <br>
 
-- Git Presentation (slides) <br>
-- Code Review Presentation (slides) <br>
-- Communication for Devs Presentation (slides) <br>
-- Pair Programming Presentation (slides) <br>
-- Agile Presentation (slides incoming from Grace)
+- [Git Presentation](https://youtu.be/zeC5iwsHllk) ([slides](https://docs.google.com/presentation/d/1onRsF-5NQbky8BOac5cGsJunjBisvauQPEC4hOWPaGI/edit#slide=id.p)) <br>
+- [Code Review Presentation](https://youtu.be/QcItLjFJ_Us) ([slides](https://docs.google.com/presentation/d/1GP_X91rd3W50GN6FjcLfAge8SD0O45qe7qdtHPO_D2I/edit?pli=1#slide=id.p)) <br>
+- [Communication for Devs Presentation](https://youtu.be/LVjG3qxtQX0) ([slides](https://docs.google.com/presentation/d/14kJTPHCVHsEmzqOLTqKCgL3QrwR7_BnIpN9oGJraT4c/edit#slide=id.p)) <br>
+- [Pair Programming Presentation](https://youtu.be/yFVJ2gph_Uc) (slides) <br>
+- Agile Presentation (slides only)
 
 #### 👋 Sync meetings
 
@@ -52,6 +52,8 @@ Watch these learning modules asynchronously throughout the week. These are found
 
 #### 📖 Learning modules
 
+- [Accessibility](https://youtu.be/xrP2DIoZRnQ) ([slides](https://docs.google.com/presentation/d/1ux4HXGj3XAGZRD7qvOpjl36FYbTcUYGaaBHywc95taY/edit#slide=id.p))
+
 #### 👋 Sync meetings
 
 ### Week 3, {DATES_WEEK_3}
@@ -64,6 +66,8 @@ Watch these learning modules asynchronously throughout the week. These are found
 | {DEV_4} & {DEV_2}  | [insert static link to issue] |
 
 #### 📖 Learning modules
+
+- [How to tell your story](https://youtu.be/Zhtd-DdTwSs)
 
 #### 👋 Sync meetings
 
@@ -78,6 +82,8 @@ Watch these learning modules asynchronously throughout the week. These are found
 
 #### 📖 Learning modules
 
+- [What to include on your Linkedin profile](./learning-modules/what-to-include-on-linkedin.md)
+
 #### 👋 Sync meetings
 
 ### Week 5, {DATES_WEEK_5}
@@ -90,6 +96,8 @@ Watch these learning modules asynchronously throughout the week. These are found
 | {DEV_1} & {DEV_4}  | [insert static link to issue] |
 
 #### 📖 Learning modules
+
+- [Navigating finances during a career change](https://youtu.be/xtkgOmFPUJU)
 
 #### 👋 Sync meetings
 
@@ -104,6 +112,8 @@ Watch these learning modules asynchronously throughout the week. These are found
 
 #### 📖 Learning modules
 
+- [What to ask your interviewers](./learning-modules/what-to-ask-your-interviewers.md)
+
 #### 👋 Sync meetings
 
 ### Week 7, {DATES_WEEK_7}
@@ -116,6 +126,9 @@ Watch these learning modules asynchronously throughout the week. These are found
 | {DEV_3} & {DEV_4}  | [insert static link to issue] |
 
 #### 📖 Learning modules
+
+- [How to rock the technical interview](https://www.youtube.com/watch?v=X-7eKmYqM8M)
+- [Pair interview practice](./learning-modules/pair-interview-practice.md)
 
 #### 👋 Sync meetings
 
@@ -141,6 +154,9 @@ Watch these learning modules asynchronously throughout the week. These are found
 
 #### 📖 Learning modules
 
+- Review, prepare for, schedule, and complete the [Job-Fit Mock Interview](./learning-modules/mock-interview-job-fit.md)
+- Complete the [Takehome Assignment](./learning-modules/complete-take-home-assignment.md) that will be covered in the Technical Mock Interview
+
 #### 👋 Sync meetings
 
 ### Week 10, {DATES_WEEK_10}
@@ -152,5 +168,7 @@ Watch these learning modules asynchronously throughout the week. These are found
 | N/A                | No assigned issues. This is a good chance to address any emergent work defined by team. |
 
 #### 📖 Learning modules
+
+- Review, prepare for, schedule, and complete the [Technical Mock Interview](./learning-modules/mock-interview-job-fit.md)
 
 #### 👋 Sync meetings
