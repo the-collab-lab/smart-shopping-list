@@ -10,25 +10,147 @@
 - Issue list: {PROJECT_BOARD_URL}
 - Database: {CONSOLE_URL}
 
-### Project cadence & duration
+## Program Agenda & Curriculum
 
-The project is expected to take 6 hours per week for 10 weeks.
+### Week 1, {DATES_WEEK_1}
 
-Each week, the following will happen:
+#### 🖥 Development work
 
-- The whole team will gather at the beginning of the week for a Weekly Sync meeting.
-- The team of 4 developers will split into 2 pairs of 2 developers each and each pair will take on a story from the issues list to work on together that week.
-- Developers will have learning modules to consume asynchronously.
+| Developer pairings | Assigned issue                |
+| ------------------ | ----------------------------- |
+| {DEV_1} & {DEV_2}  | [insert static link to issue] |
+| {DEV_3} & {DEV_4}  | [insert static link to issue] |
 
-| Week | Date            | Development Work                                                                                                                                                                                                                                                                                                                                                              | Learning Modules                                                                                                                                                                                                                                                                                                                                                                                     | Sync Meetings                                                                                                                                                                                                                                                                                                                                                                                                                                     |
-| ---- | --------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1    | {DATES_WEEK_1}  | {DEV_1} & {DEV_2}: 2. As a user, I want to read all of my shopping lists and the items in them. <br> {DEV_3} & {DEV_4}: 3. As a user, I want to be able to navigate to all the pages in the application by clicking the links in the nav bar                                                                                                                                  | Watch these learning modules asynchronously throughout the week. These are foundational concepts that will be applied throughout your Collab Lab experience. <br> 1. Git Presentation (slides) <br> 2. Code Review Presentation (slides) <br> 3. Communication for Devs Presentation (slides) <br> 4. Pair Programming Presentation (slides) <br> 5. Agile Presentation (slides incoming from Grace) | - Weekly Sync <br> - Mentors pair live through issue #1 so Collabies can get a demostration of the full development cycle at Collab Lab (and so we can ensure everyone is set up with Firebase auth for their app) <br> - Collabies will be presented with issues #2 and #3 <br> <br> - Pair Programming <br> - Each pair will work together to schedule pairing sessions to complete the development work <br> <br> Optional <br> - Office Hours |
-| 2    | {DATES_WEEK_2}  | {DEV_2} & {DEV_3}: 4. As a user, I want to set up a new shopping list so I can start tracking purchased items. <br> {DEV_1} & {DEV_4}: 5. As a user, I want to add a new item to my shopping list so I can start recording purchases.                                                                                                                                         | Accessibility (slides)                                                                                                                                                                                                                                                                                                                                                                               | - Weekly Sync <br> - Demo issues #2 & #3 <br> - Discuss Learning Modules <br> - Collabies will be presented with Issue #4 and Issue #5 <br> <br> - Pair Programming <br> - Each pair will work together to schedule pairing sessions to complete the development work <br> <br> Optional <br> - Office Hours                                                                                                                                      |
-| 3    | {DATES_WEEK_3}  | {DEV_3} & {DEV_1}: 6. As a user, I want to be able to invite others to an existing shopping list. <br> {DEV_4} & {DEV_2}: 7. As a user, I want to filter my shopping list to make it easier to locate an item in the list.                                                                                                                                                    | How to tell your story                                                                                                                                                                                                                                                                                                                                                                               | - Weekly Sync <br> - Demo issues #4 & #5 <br> - Retro <br> - This week's issues <br> <br> - Pair Programming <br> <br> Optional <br> - Office Hours                                                                                                                                                                                                                                                                                               |
-| 4    | {DATES_WEEK_4}  | {DEV_1} & {DEV_2}: 8. As a user, I want to see a welcoming prompt to add my first item if my list is empty to help me get oriented to how the app works. <br> {DEV_3} & {DEV_4}: 9. As a user, I want to mark an item on my shopping list as purchased so the app can learn how often I buy different items.                                                                  | What to include on your Linkedin profile                                                                                                                                                                                                                                                                                                                                                             | - Weekly Sync <br> - Demo <br> - Discuss Learning Modules <br> - Next week's issues <br> <br> - Pair Programming <br> <br> Optional <br> - Office Hours                                                                                                                                                                                                                                                                                           |
-| 5    | {DATES_WEEK_5}  | {DEV_2} & {DEV_3}: 10. As a user, I want to be alerted when I’m entering an empty item or an item that's already on my list. <br> {DEV_1} & {DEV_4}: 11. As an item, I want my estimated next purchase date to be computed at the time my purchase is recorded in the database so the app can learn how often I buy different items.                                          | Navigating finances during a career change                                                                                                                                                                                                                                                                                                                                                           | - Weekly Sync <br> - Demo <br> - Retro <br> - Next week's issues <br> <br> - Pair Programming <br> <br> Optional <br> - Office Hours                                                                                                                                                                                                                                                                                                              |
-| 6    | {DATES_WEEK_6}  | {DEV_3} & {DEV_1}: 12. As a user, I want to be able to delete items from my shopping list so that my list isn’t cluttered with items I don’t want to buy in the future. <br> {DEV_4} & {DEV_2}: 13. As a user, I want to view a list of my shopping list items in order of how soon I am likely to need to buy each of them again so that it’s clear what I need to buy soon. | What to ask your interviewers                                                                                                                                                                                                                                                                                                                                                                        | - Weekly Sync <br> - Demo <br> - Discuss Learning Modules <br> - Next week's issues <br> <br> - Pair Programming <br> <br> Optional <br> - Office Hours                                                                                                                                                                                                                                                                                           |
-| 7    | {DATES_WEEK_7}  | 14. As a user, I want the app to look professional and welcoming                                                                                                                                                                                                                                                                                                              | --                                                                                                                                                                                                                                                                                                                                                                                                   | - Weekly Sync <br> - Demo <br> - Retro <br> - Next week's issues <br> <br> - Pair Programming <br> <br> Optional <br> - Office Hours <br> - Design meeting with Mark                                                                                                                                                                                                                                                                              |
-| 8    | {DATES_WEEK_8}  | No assigned issues. This is a good chance to address any emergent work defined by team.                                                                                                                                                                                                                                                                                       | 1. How to rock the technical interview <br>2. Pair interview practice                                                                                                                                                                                                                                                                                                                                | - Weekly Sync <br> - Demo <br> - Next week's issues <br><br> - Pair Programming / Design planning <br><br> - Pair Interview Practice <br><br> Optional <br> - Office Hours <br> - Design meeting with Mark                                                                                                                                                                                                                                        |
-| 9    | {DATES_WEEK_9}  | No assigned issues. This is a good chance to address any emergent work defined by team.                                                                                                                                                                                                                                                                                       | 1. Review, prepare for, schedule, and complete the Job-Fit Mock Interview <br> 2. Complete the Takehome Assignment that will be covered in the Technical Mock Interview                                                                                                                                                                                                                              | - Weekly Sync <br><br> - Pair Programming / Design planning <br><br> - Job Fit Mock Interview <br><br> Optional <br> - Office Hours                                                                                                                                                                                                                                                                                                               |
-| 10   | {DATES_WEEK_10} | No assigned issues. This is a good chance to address any emergent work defined by team.                                                                                                                                                                                                                                                                                       | Review, prepare for, schedule, and complete the Technical Mock Interview                                                                                                                                                                                                                                                                                                                             | Technical Mock Interview <br><br> - Cohort Demo / Celebration                                                                                                                                                                                                                                                                                                                                                                                     |
+#### 📖 Learning modules
+
+Watch these learning modules asynchronously throughout the week. These are foundational concepts that will be applied throughout your Collab Lab experience. <br> <br>
+
+- Git Presentation (slides) <br>
+- Code Review Presentation (slides) <br>
+- Communication for Devs Presentation (slides) <br>
+- Pair Programming Presentation (slides) <br>
+- Agile Presentation (slides incoming from Grace)
+
+#### 👋 Sync meetings
+
+- **Weekly Sync** <br>
+  - Mentors pair live through issue #1 so Collabies can get a demonstration of the full development cycle at Collab Lab (and so we can ensure everyone is set up with Firebase auth for their app) <br>
+  - Collabies will be presented with issues #2 and #3 <br>
+- **Pair Programming** <br>
+  - Each pair will work together to schedule pairing sessions to complete the development work <br>
+    Optional <br>
+- **Office Hours** <br>
+
+### Week 2, {DATES_WEEK_2}
+
+#### 🖥 Development work
+
+| Developer pairings | Assigned issue                |
+| ------------------ | ----------------------------- |
+| {DEV_2} & {DEV_3}  | [insert static link to issue] |
+| {DEV_1} & {DEV_4}  | [insert static link to issue] |
+
+#### 📖 Learning modules
+
+#### 👋 Sync meetings
+
+### Week 3, {DATES_WEEK_3}
+
+#### 🖥 Development work
+
+| Developer pairings | Assigned issue                |
+| ------------------ | ----------------------------- |
+| {DEV_3} & {DEV_1}  | [insert static link to issue] |
+| {DEV_4} & {DEV_2}  | [insert static link to issue] |
+
+#### 📖 Learning modules
+
+#### 👋 Sync meetings
+
+### Week 4, {DATES_WEEK_4}
+
+#### 🖥 Development work
+
+| Developer pairings | Assigned issue                |
+| ------------------ | ----------------------------- |
+| {DEV_1} & {DEV_2}  | [insert static link to issue] |
+| {DEV_3} & {DEV_4}  | [insert static link to issue] |
+
+#### 📖 Learning modules
+
+#### 👋 Sync meetings
+
+### Week 5, {DATES_WEEK_5}
+
+#### 🖥 Development work
+
+| Developer pairings | Assigned issue                |
+| ------------------ | ----------------------------- |
+| {DEV_2} & {DEV_3}  | [insert static link to issue] |
+| {DEV_1} & {DEV_4}  | [insert static link to issue] |
+
+#### 📖 Learning modules
+
+#### 👋 Sync meetings
+
+### Week 6, {DATES_WEEK_6}
+
+#### 🖥 Development work
+
+| Developer pairings | Assigned issue                |
+| ------------------ | ----------------------------- |
+| {DEV_3} & {DEV_1}  | [insert static link to issue] |
+| {DEV_4} & {DEV_2}  | [insert static link to issue] |
+
+#### 📖 Learning modules
+
+#### 👋 Sync meetings
+
+### Week 7, {DATES_WEEK_7}
+
+#### 🖥 Development work
+
+| Developer pairings | Assigned issue                |
+| ------------------ | ----------------------------- |
+| {DEV_1} & {DEV_2}  | [insert static link to issue] |
+| {DEV_3} & {DEV_4}  | [insert static link to issue] |
+
+#### 📖 Learning modules
+
+#### 👋 Sync meetings
+
+### Week 8, {DATES_WEEK_8}
+
+#### 🖥 Development work
+
+| Developer pairings | Assigned issue                                                                          |
+| ------------------ | --------------------------------------------------------------------------------------- |
+| N/A                | No assigned issues. This is a good chance to address any emergent work defined by team. |
+
+#### 📖 Learning modules
+
+#### 👋 Sync meetings
+
+### Week 9, {DATES_WEEK_9}
+
+#### 🖥 Development work
+
+| Developer pairings | Assigned issue                                                                          |
+| ------------------ | --------------------------------------------------------------------------------------- |
+| N/A                | No assigned issues. This is a good chance to address any emergent work defined by team. |
+
+#### 📖 Learning modules
+
+#### 👋 Sync meetings
+
+### Week 10, {DATES_WEEK_10}
+
+#### 🖥 Development work
+
+| Developer pairings | Assigned issue                                                                          |
+| ------------------ | --------------------------------------------------------------------------------------- |
+| N/A                | No assigned issues. This is a good chance to address any emergent work defined by team. |
+
+#### 📖 Learning modules
+
+#### 👋 Sync meetings
