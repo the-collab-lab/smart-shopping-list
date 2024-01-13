@@ -5,4 +5,4 @@ During the final week of Collab Lab, participants will complete the following ta
 
 Once the assignment is complete, send a link of your completed challenge to the mentor that is conducting your technical interview. 
 
-Find your mentor/technical interviewer here: [Sync: Technical mock interview](learning-modules/mock-interview-technical.md)
+Find your mentor/technical interviewer here: [Sync: Technical mock interview](mock-interview-technical.md)

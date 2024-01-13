@@ -16,7 +16,7 @@ The interviews will run a maximum of 1 hour, including time for you to ask quest
   [Engineer Job Description](../resources/mock-job-description.md)
 
 - Review the [Job fit interview questions](../resources/job-fit-interview-questions.md)
-- Collabies should [prepare some questions to ask the interviewer](learning-modules/what-to-ask-your-interviewers.md) about the job and company.
+- Collabies should [prepare some questions to ask the interviewer](what-to-ask-your-interviewers.md) about the job and company.
 
 ## Interview agenda
 
