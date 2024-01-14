@@ -10,6 +10,8 @@ This document serves as your comprehensive guide to all available resources nece
 - Issue list: {PROJECT_BOARD_URL}
 - Database: {CONSOLE_URL}
 
+## Program Agenda & Curriculum
+
 ### Week 1, {DATES_WEEK_1}
 
 | 🤝 Developer pairings | 🖥 Assigned Github issue                                                                                                                    |
