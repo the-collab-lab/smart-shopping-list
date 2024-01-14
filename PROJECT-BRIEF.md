@@ -25,11 +25,11 @@ This document serves as your comprehensive guide to all available resources nece
 | [Pair Programming Presentation](https://youtu.be/yFVJ2gph_Uc) (slides)                                                                                                              |
 | Agile Presentation (slides only)                                                                                                                                                    |
 
-| 👋 Sync meetings | Agenda                                                                                                                                                                                                                                                   |
-| ---------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Weekly Sync      | - Mentors pair live through issue #1 so Collabies can get a demostration of the full development cycle at Collab Lab (and so we can ensure everyone is set up with Firebase auth for their app) <br> - Collabies will be presented with issues #2 and #3 |
-| Pair Programming | Schedule a pairing session(s) with your partner early in the week to complete the development work required to meet the acceptance criteria of your Github issue.                                                                                        |
-| Optional         | Office Hours                                                                                                                                                                                                                                             |
+| 👋 Sync meetings | Agenda                                                                                                                                                                                                                                   |
+| ---------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Weekly Sync      | - Mentors pair live through issue #1 so Collabies can get a demostration of the full development cycle at Collab Lab and we can ensure everyone has Firebase auth for their app <br> - Collabies will be presented with issues #2 and #3 |
+| Pair Programming | Schedule a pairing session(s) with your partner early in the week to complete the development work required to meet the acceptance criteria of your Github issue.                                                                        |
+| Optional         | Office Hours                                                                                                                                                                                                                             |
 
 ### Week 2, {DATES_WEEK_2}
 
@@ -122,10 +122,10 @@ This document serves as your comprehensive guide to all available resources nece
 | --------------------- | ---------------------------------------------------------------------------------------- |
 | Full team             | [14. As a user, I want the app to look professional and welcoming]({REPO_URL}/issues/14) |
 
-| 📖 Learning modules                                                                | Description |
-| ---------------------------------------------------------------------------------- | ----------- |
-| [How to rock the technical interview](https://www.youtube.com/watch?v=X-7eKmYqM8M) |             |
-| [Pair interview practice](./learning-modules/pair-interview-practice.md)           |             |
+| 📖 Learning modules                                                                | Description                                                                                                 |
+| ---------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------- |
+| [How to rock the technical interview](https://www.youtube.com/watch?v=X-7eKmYqM8M) | This video is full of great insights that will help you be successful in a vairety of tehcnical interviews. |
+| [Pair interview practice](./learning-modules/pair-interview-practice.md)           | Get to know these questions so that you can pair up with a fellow Collabie next week and practice.          |
 
 | 👋 Sync meetings | Agenda                                                                                                                                                            |
 | ---------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -137,48 +137,48 @@ This document serves as your comprehensive guide to all available resources nece
 
 | 🤝 Developer pairings | 🖥 Assigned Github issue                                                                |
 | --------------------- | --------------------------------------------------------------------------------------- |
-| N/A                   | No assigned issues. This is a good chance to address any emergent work defined by team. |
+|                       | No assigned issues. This is a good chance to address any emergent work defined by team. |
 
-| 📖 Learning modules                                                               | Description |
-| --------------------------------------------------------------------------------- | ----------- |
-| No learning modules this week. A great time to catch up on any outstanding tasks! |             |
+| 📖 Learning modules                                                               |
+| --------------------------------------------------------------------------------- |
+| No learning modules this week. A great time to catch up on any outstanding tasks! |
 
 | 👋 Sync meetings                   | Agenda                                                                                                                            |
 | ---------------------------------- | --------------------------------------------------------------------------------------------------------------------------------- |
 | Weekly Sync                        | - Demo <br> - Next week's issues                                                                                                  |
 | Pair Programming / Design planning | During this week, you should aim to collaborate as a full team to create a plan for implementing an engagind design for your app. |
-| Pair Interview Practice            |                                                                                                                                   |
+| Pair Interview Practice            | Get together with some fellow Collabies to practice some common interview questions.                                              |
 | Optional                           | - Office Hours <br> - Design meeting with Mark                                                                                    |
 
 ### Week 9, {DATES_WEEK_9}
 
 | 🤝 Developer pairings | 🖥 Assigned Github issue                                                                |
 | --------------------- | --------------------------------------------------------------------------------------- |
-| N/A                   | No assigned issues. This is a good chance to address any emergent work defined by team. |
+|                       | No assigned issues. This is a good chance to address any emergent work defined by team. |
 
-| 📖 Learning modules                                                                                                                          | Description |
-| -------------------------------------------------------------------------------------------------------------------------------------------- | ----------- |
-| Review, prepare for, schedule, and complete the [Job-Fit Mock Interview](./learning-modules/mock-interview-job-fit.md)                       |             |
-| Complete the [Takehome Assignment](./learning-modules/complete-take-home-assignment.md) that will be covered in the Technical Mock Interview |             |
+| 📖 Learning modules                                                                                                    | Description                                                                                       |
+| ---------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------- |
+| Review, prepare for, schedule, and complete the [Job-Fit Mock Interview](./learning-modules/mock-interview-job-fit.md) |                                                                                                   |
+| [Takehome Assignment](./learning-modules/complete-take-home-assignment.md)                                             | Complete the take home assignement that will be used in your Technical Mock Interview in Week 10. |
 
 | 👋 Sync meetings                   | Agenda                                                                                                                            |
 | ---------------------------------- | --------------------------------------------------------------------------------------------------------------------------------- |
 | Weekly Sync                        |                                                                                                                                   |
 | Pair Programming / Design planning | During this week, you should aim to collaborate as a full team to create a plan for implementing an engagind design for your app. |
-| Job Fit Mock Interview             |                                                                                                                                   |
+| Job Fit Mock Interview             | Practice a job fit interview with the mentor you've been assigned                                                                 |
 | Optional                           | Office Hours                                                                                                                      |
 
 ### Week 10, {DATES_WEEK_10}
 
 | 🤝 Developer pairings | 🖥 Assigned Github issue                                                                |
 | --------------------- | --------------------------------------------------------------------------------------- |
-| N/A                   | No assigned issues. This is a good chance to address any emergent work defined by team. |
+|                       | No assigned issues. This is a good chance to address any emergent work defined by team. |
 
-| 📖 Learning modules                                                                                                      | Description |
-| ------------------------------------------------------------------------------------------------------------------------ | ----------- |
-| Review, prepare for, schedule, and complete the [Technical Mock Interview](./learning-modules/mock-interview-job-fit.md) |             |
+| 📖 Learning modules                                                                                                      |
+| ------------------------------------------------------------------------------------------------------------------------ |
+| Review, prepare for, schedule, and complete the [Technical Mock Interview](./learning-modules/mock-interview-job-fit.md) |
 
-| 👋 Sync meetings          | Agenda |
-| ------------------------- | ------ |
-| Technical Mock Interview  |        |
-| Cohort Demo / Celebration |        |
+| 👋 Sync meetings          | Agenda                                                                                                                          |
+| ------------------------- | ------------------------------------------------------------------------------------------------------------------------------- |
+| Technical Mock Interview  | Practice a technical mock interview using your take-home assignment with the mentor you've been assigned.                       |
+| Cohort Demo / Celebration | Join all the teams in your cohort to walk through your app and celebrate all the hard work we've put in over the last 10 weeks! |
