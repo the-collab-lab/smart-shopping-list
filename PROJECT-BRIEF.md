@@ -1,16 +1,14 @@
-# Project Brief, The Collab Lab
+# Project Brief
 
-## Your Team's Smart Shopping List
+This document serves as your comprehensive guide to all available resources necessary during your time at The Collab Lab. Each week you'll see an agenda that details your pairs for the week and the development work you'll be completing, learning modules to complete, and meetings to attend.
 
-### Locations for things
+## Smart Shopping List Resources
 
 - Site: {PRODUCTION_URL}
 - Repo: {REPO_URL}
 - Clone URL: {REPO_CLONE_URL}
 - Issue list: {PROJECT_BOARD_URL}
 - Database: {CONSOLE_URL}
-
-## Program Agenda & Curriculum
 
 ### Week 1, {DATES_WEEK_1}
 
@@ -30,8 +28,8 @@
 | 👋 Sync meetings | Agenda                                                                                                                                                                                                                                                   |
 | ---------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Weekly Sync      | - Mentors pair live through issue #1 so Collabies can get a demostration of the full development cycle at Collab Lab (and so we can ensure everyone is set up with Firebase auth for their app) <br> - Collabies will be presented with issues #2 and #3 |
-| Pair Programming | - Each pair will work together to schedule pairing sessions to complete the development work                                                                                                                                                             |
-| Optional         | - Office Hours                                                                                                                                                                                                                                           |
+| Pair Programming | Schedule a pairing session(s) with your partner early in the week to complete the development work required to meet the acceptance criteria of your Github issue.                                                                                        |
+| Optional         | Office Hours                                                                                                                                                                                                                                             |
 
 ### Week 2, {DATES_WEEK_2}
 
@@ -44,11 +42,11 @@
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------- |
 | [Accessibility](https://youtu.be/xrP2DIoZRnQ) ([slides](https://docs.google.com/presentation/d/1ux4HXGj3XAGZRD7qvOpjl36FYbTcUYGaaBHywc95taY/edit#slide=id.p)) |
 
-| 👋 Sync meetings | Agenda                                                                                                              |
-| ---------------- | ------------------------------------------------------------------------------------------------------------------- |
-| Weekly Sync      | - Demo issues #2 & #3 <br> - Discuss Learning Modules <br> - Collabies will be presented with issue #4 and issue #5 |
-| Pair Programming | - Each pair will work together to schedule pairing sessions to complete the development work                        |
-| Optional         | - Office Hours                                                                                                      |
+| 👋 Sync meetings | Agenda                                                                                                                                                            |
+| ---------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Weekly Sync      | - Demo issues #2 & #3 <br> - Discuss Learning Modules <br> - Collabies will be presented with issue #4 and issue #5                                               |
+| Pair Programming | Schedule a pairing session(s) with your partner early in the week to complete the development work required to meet the acceptance criteria of your Github issue. |
+| Optional         | Office Hours                                                                                                                                                      |
 
 ### Week 3, {DATES_WEEK_3}
 
@@ -61,11 +59,11 @@
 | ------------------------------------------------------ | ----------- |
 | [How to tell your story](https://youtu.be/Zhtd-DdTwSs) |             |
 
-| 👋 Sync meetings | Agenda                                                      |
-| ---------------- | ----------------------------------------------------------- |
-| Weekly Sync      | - Demo issues #4 & #5 <br> - Retro <br> - This week's issue |
-| Pair Programming |                                                             |
-| Optional         | - Office Hours                                              |
+| 👋 Sync meetings | Agenda                                                                                                                                                            |
+| ---------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Weekly Sync      | - Demo issues #4 & #5 <br> - Retro <br> - This week's issue                                                                                                       |
+| Pair Programming | Schedule a pairing session(s) with your partner early in the week to complete the development work required to meet the acceptance criteria of your Github issue. |
+| Optional         | Office Hours                                                                                                                                                      |
 
 ### Week 4, {DATES_WEEK_4}
 
@@ -78,11 +76,11 @@
 | --------------------------------------------------------------------------------------------- | ----------- |
 | [What to include on your Linkedin profile](./learning-modules/what-to-include-on-linkedin.md) |             |
 
-| 👋 Sync meetings | Agenda                                                           |
-| ---------------- | ---------------------------------------------------------------- |
-| Weekly Sync      | - Demo <br> - Discuss Learning Modules <br> - Next week's issues |
-| Pair Programming |                                                                  |
-| Optional         | - Office Hours                                                   |
+| 👋 Sync meetings | Agenda                                                                                                                                                            |
+| ---------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Weekly Sync      | - Demo <br> - Discuss Learning Modules <br> - Next week's issues                                                                                                  |
+| Pair Programming | Schedule a pairing session(s) with your partner early in the week to complete the development work required to meet the acceptance criteria of your Github issue. |
+| Optional         | Office Hours                                                                                                                                                      |
 
 ### Week 5, {DATES_WEEK_5}
 
@@ -95,11 +93,11 @@
 | -------------------------------------------------------------------------- | ----------- |
 | [Navigating finances during a career change](https://youtu.be/xtkgOmFPUJU) |             |
 
-| 👋 Sync meetings | Agenda                                        |
-| ---------------- | --------------------------------------------- |
-| Weekly Sync      | - Demo <br> - Retro <br> - Next week's issues |
-| Pair Programming |                                               |
-| Optional         | - Office Hours                                |
+| 👋 Sync meetings | Agenda                                                                                                                                                            |
+| ---------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Weekly Sync      | - Demo <br> - Retro <br> - Next week's issues                                                                                                                     |
+| Pair Programming | Schedule a pairing session(s) with your partner early in the week to complete the development work required to meet the acceptance criteria of your Github issue. |
+| Optional         | Office Hours                                                                                                                                                      |
 
 ### Week 6, {DATES_WEEK_6}
 
@@ -108,15 +106,15 @@
 | {DEV_3} & {DEV_1}     | [12. As a user, I want to be able to delete items from my shopping list so that my list isn’t cluttered with items I don’t want to buy in the future.]({REPO_URL}/issues/12)                          |
 | {DEV_4} & {DEV_2}     | [13. As a user, I want to view a list of my shopping list items in order of how soon I am likely to need to buy each of them again so that it’s clear what I need to buy soon.]({REPO_URL}/issues/13) |
 
-| 📖 Learning modules                                                                 | Description |
-| ----------------------------------------------------------------------------------- | ----------- |
-| [What to ask your interviewers](./learning-modules/what-to-ask-your-interviewers.md |             |
+| 📖 Learning modules                                                                  | Description |
+| ------------------------------------------------------------------------------------ | ----------- |
+| [What to ask your interviewers](./learning-modules/what-to-ask-your-interviewers.md) |             |
 
-| 👋 Sync meetings | Agenda                                                           |
-| ---------------- | ---------------------------------------------------------------- |
-| Weekly Sync      | - Demo <br> - Discuss Learning Modules <br> - Next week's issues |
-| Pair Programming |                                                                  |
-| Optional         | - Office Hours                                                   |
+| 👋 Sync meetings | Agenda                                                                                                                                                            |
+| ---------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Weekly Sync      | - Demo <br> - Discuss Learning Modules <br> - Next week's issues                                                                                                  |
+| Pair Programming | Schedule a pairing session(s) with your partner early in the week to complete the development work required to meet the acceptance criteria of your Github issue. |
+| Optional         | Office Hours                                                                                                                                                      |
 
 ### Week 7, {DATES_WEEK_7}
 
@@ -129,11 +127,11 @@
 | [How to rock the technical interview](https://www.youtube.com/watch?v=X-7eKmYqM8M) |             |
 | [Pair interview practice](./learning-modules/pair-interview-practice.md)           |             |
 
-| 👋 Sync meetings | Agenda                                         |
-| ---------------- | ---------------------------------------------- |
-| Weekly Sync      | - Demo <br> - Retro <br> - Next week's issues  |
-| Pair Programming |                                                |
-| Optional         | - Office Hours <br> - Design meeting with Mark |
+| 👋 Sync meetings | Agenda                                                                                                                                                            |
+| ---------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Weekly Sync      | - Demo <br> - Retro <br> - Next week's issues                                                                                                                     |
+| Pair Programming | Schedule a pairing session(s) with your partner early in the week to complete the development work required to meet the acceptance criteria of your Github issue. |
+| Optional         | - Office Hours <br> - Design meeting with Mark                                                                                                                    |
 
 ### Week 8, {DATES_WEEK_8}
 
@@ -145,12 +143,12 @@
 | --------------------------------------------------------------------------------- | ----------- |
 | No learning modules this week. A great time to catch up on any outstanding tasks! |             |
 
-| 👋 Sync meetings                   | Agenda                                         |
-| ---------------------------------- | ---------------------------------------------- |
-| Weekly Sync                        | - Demo <br> - Next week's issues               |
-| Pair Programming / Design planning |                                                |
-| Pair Interview Practice            |                                                |
-| Optional                           | - Office Hours <br> - Design meeting with Mark |
+| 👋 Sync meetings                   | Agenda                                                                                                                            |
+| ---------------------------------- | --------------------------------------------------------------------------------------------------------------------------------- |
+| Weekly Sync                        | - Demo <br> - Next week's issues                                                                                                  |
+| Pair Programming / Design planning | During this week, you should aim to collaborate as a full team to create a plan for implementing an engagind design for your app. |
+| Pair Interview Practice            |                                                                                                                                   |
+| Optional                           | - Office Hours <br> - Design meeting with Mark                                                                                    |
 
 ### Week 9, {DATES_WEEK_9}
 
@@ -163,12 +161,12 @@
 | Review, prepare for, schedule, and complete the [Job-Fit Mock Interview](./learning-modules/mock-interview-job-fit.md)                       |             |
 | Complete the [Takehome Assignment](./learning-modules/complete-take-home-assignment.md) that will be covered in the Technical Mock Interview |             |
 
-| 👋 Sync meetings                   | Agenda         |
-| ---------------------------------- | -------------- |
-| Weekly Sync                        |                |
-| Pair Programming / Design planning |                |
-| Job Fit Mock Interview             |                |
-| Optional                           | - Office Hours |
+| 👋 Sync meetings                   | Agenda                                                                                                                            |
+| ---------------------------------- | --------------------------------------------------------------------------------------------------------------------------------- |
+| Weekly Sync                        |                                                                                                                                   |
+| Pair Programming / Design planning | During this week, you should aim to collaborate as a full team to create a plan for implementing an engagind design for your app. |
+| Job Fit Mock Interview             |                                                                                                                                   |
+| Optional                           | Office Hours                                                                                                                      |
 
 ### Week 10, {DATES_WEEK_10}
 
@@ -181,6 +179,6 @@
 | Review, prepare for, schedule, and complete the [Technical Mock Interview](./learning-modules/mock-interview-job-fit.md) |             |
 
 | 👋 Sync meetings          | Agenda |
-| ------------------------- | ------ | --- |
-| Technical Mock Interview  |        | ß   |
+| ------------------------- | ------ |
+| Technical Mock Interview  |        |
 | Cohort Demo / Celebration |        |
