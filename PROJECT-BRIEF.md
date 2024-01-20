@@ -19,12 +19,12 @@ This document serves as your comprehensive guide to all available resources nece
 | {DEV_1} & {DEV_2}     | [2. As a user, I want to read all of my shopping lists and the items in them]({REPO_URL}/issues/2)                                          |
 | {DEV_3} & {DEV_4}     | [3. As a user, I want to be able to navigate to all the pages in the application by clicking the links in the nav bar]({REPO_URL}/issues/3) |
 
-| 📖 Self-study learning modules                                                                                                                                                      | Description |
-| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------- |
-| [Git Presentation](https://youtu.be/zeC5iwsHllk) ([slides](https://docs.google.com/presentation/d/1onRsF-5NQbky8BOac5cGsJunjBisvauQPEC4hOWPaGI/edit#slide=id.p))                    |
-| [Code Review Presentation](https://youtu.be/QcItLjFJ_Us) ([slides](https://docs.google.com/presentation/d/1GP_X91rd3W50GN6FjcLfAge8SD0O45qe7qdtHPO_D2I/edit?pli=1#slide=id.p))      |
-| [Communication for Devs Presentation](https://youtu.be/LVjG3qxtQX0) ([slides](https://docs.google.com/presentation/d/14kJTPHCVHsEmzqOLTqKCgL3QrwR7_BnIpN9oGJraT4c/edit#slide=id.p)) |
-| [Pair Programming Presentation](https://youtu.be/yFVJ2gph_Uc) (slides)                                                                                                              |
+| 📖 Self-study learning modules                                                                                                                                                      | Description                                                                                                                                              |
+| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [Git Presentation](https://youtu.be/zeC5iwsHllk) ([slides](https://docs.google.com/presentation/d/1onRsF-5NQbky8BOac5cGsJunjBisvauQPEC4hOWPaGI/edit#slide=id.p))                    | Learn basic git commands needed for collaboration and version control.                                                                                   |
+| [Code Review Presentation](https://youtu.be/QcItLjFJ_Us) ([slides](https://docs.google.com/presentation/d/1GP_X91rd3W50GN6FjcLfAge8SD0O45qe7qdtHPO_D2I/edit?pli=1#slide=id.p))      | Learn how to complete an effective code review on a teammate's pull request.                                                                             |
+| [Communication for Devs Presentation](https://youtu.be/LVjG3qxtQX0) ([slides](https://docs.google.com/presentation/d/14kJTPHCVHsEmzqOLTqKCgL3QrwR7_BnIpN9oGJraT4c/edit#slide=id.p)) | Discover the value of effective communication for developers and gain valuable insights to enhance collaboration through better communication practices. |
+| [Pair Programming Presentation](https://youtu.be/yFVJ2gph_Uc) (slides)                                                                                                              | Understand the basics of effective pair programming and the essential roles involved for maximum productivity and success.                               |
 | Agile Presentation (slides only)                                                                                                                                                    |
 
 | 👋 Sync meetings | Agenda                                                                                                                                                                                                                                   |
@@ -40,9 +40,9 @@ This document serves as your comprehensive guide to all available resources nece
 | {DEV_2} & {DEV_3}     | [4. As a user, I want to set up a new shopping list so I can start tracking purchased items.]({REPO_URL}/issues/4)    |
 | {DEV_1} & {DEV_4}     | [5. As a user, I want to add a new item to my shopping list so I can start recording purchases.]({REPO_URL}/issues/5) |
 
-| 📖 Self-study learning modules                                                                                                                                | Description |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------- |
-| [Accessibility](https://youtu.be/xrP2DIoZRnQ) ([slides](https://docs.google.com/presentation/d/1ux4HXGj3XAGZRD7qvOpjl36FYbTcUYGaaBHywc95taY/edit#slide=id.p)) |
+| 📖 Self-study learning modules                                                                                                                                | Description                                                                                                                                     |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- |
+| [Accessibility](https://youtu.be/xrP2DIoZRnQ) ([slides](https://docs.google.com/presentation/d/1ux4HXGj3XAGZRD7qvOpjl36FYbTcUYGaaBHywc95taY/edit#slide=id.p)) | Understand the significance of accessibility and acquire practical techniques for testing your code to uphold a high standard of accessibility. |
 
 | 👋 Sync meetings | Agenda                                                                                                                                                            |
 | ---------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -57,9 +57,9 @@ This document serves as your comprehensive guide to all available resources nece
 | {DEV_3} & {DEV_1}     | [6. As a user, I want to be able to invite others to an existing shopping list.]({REPO_URL}/issues/6)                   |
 | {DEV_4} & {DEV_2}     | [7. As a user, I want to filter my shopping list to make it easier to locate an item in the list.]({REPO_URL}/issues/7) |
 
-| 📖 Self-study learning modules                         | Description |
-| ------------------------------------------------------ | ----------- |
-| [How to tell your story](https://youtu.be/Zhtd-DdTwSs) |             |
+| 📖 Self-study learning modules                         | Description                                                                                                                                                                            |
+| ------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [How to tell your story](https://youtu.be/Zhtd-DdTwSs) | Refine the skill of effectively telling your story in interviews and when meeting new people, allowing you to leave a lasting impression and stand out during the application process. |
 
 | 👋 Sync meetings | Agenda                                                                                                                                                            |
 | ---------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -74,9 +74,9 @@ This document serves as your comprehensive guide to all available resources nece
 | {DEV_1} & {DEV_2}     | [8. As a user, I want to see a welcoming prompt to add my first item if my list is empty to help me get oriented to how the app works. ]({REPO_URL}/issues/8) |
 | {DEV_3} & {DEV_4}     | [9. As a user, I want to mark an item on my shopping list as purchased so the app can learn how often I buy different items.]({REPO_URL}/issues/9)            |
 
-| 📖 Self-study learning modules                                                                | Description |
-| --------------------------------------------------------------------------------------------- | ----------- |
-| [What to include on your Linkedin profile](./learning-modules/what-to-include-on-linkedin.md) |             |
+| 📖 Self-study learning modules                                                                | Description                                                                                                                                                                     |
+| --------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --- |
+| [What to include on your Linkedin profile](./learning-modules/what-to-include-on-linkedin.md) | Gain valuable insights on what to include on your LinkedIn profile and learn how to make impactful updates that will help you shine in front of hiring managers and recruiters. |     |
 
 | 👋 Sync meetings | Agenda                                                                                                                                                            |
 | ---------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -91,9 +91,9 @@ This document serves as your comprehensive guide to all available resources nece
 | {DEV_2} & {DEV_3}     | [10. As a user, I want to be alerted when I’m entering an empty item or an item that's already on my list.]({REPO_URL}/issues/10)                                                                       |
 | {DEV_1} & {DEV_4}     | [11. As an item, I want my estimated next purchase date to be computed at the time my purchase is recorded in the database so the app can learn how often I buy different items.]({REPO_URL}/issues/11) |
 
-| 📖 Self-study learning modules                                             | Description |
-| -------------------------------------------------------------------------- | ----------- |
-| [Navigating finances during a career change](https://youtu.be/xtkgOmFPUJU) |             |
+| 📖 Self-study learning modules                                             | Description                                                                                                                                                           |
+| -------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [Navigating finances during a career change](https://youtu.be/xtkgOmFPUJU) | This presentation will teach you invaluable techniques on how to effectively navigate finances during a career change, setting you up for success in your transition. |
 
 | 👋 Sync meetings | Agenda                                                                                                                                                            |
 | ---------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -108,9 +108,9 @@ This document serves as your comprehensive guide to all available resources nece
 | {DEV_3} & {DEV_1}     | [12. As a user, I want to be able to delete items from my shopping list so that my list isn’t cluttered with items I don’t want to buy in the future.]({REPO_URL}/issues/12)                          |
 | {DEV_4} & {DEV_2}     | [13. As a user, I want to view a list of my shopping list items in order of how soon I am likely to need to buy each of them again so that it’s clear what I need to buy soon.]({REPO_URL}/issues/13) |
 
-| 📖 Self-study learning modules                                                       | Description |
-| ------------------------------------------------------------------------------------ | ----------- |
-| [What to ask your interviewers](./learning-modules/what-to-ask-your-interviewers.md) |             |
+| 📖 Self-study learning modules                                                       | Description                                                                                                                       |
+| ------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------- |
+| [What to ask your interviewers](./learning-modules/what-to-ask-your-interviewers.md) | Practice the art of asking impactful interview questions and crafting your wording to leave a positive impression as a candidate. |
 
 | 👋 Sync meetings | Agenda                                                                                                                                                            |
 | ---------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -124,10 +124,10 @@ This document serves as your comprehensive guide to all available resources nece
 | --------------------- | ---------------------------------------------------------------------------------------- |
 | Full team             | [14. As a user, I want the app to look professional and welcoming]({REPO_URL}/issues/14) |
 
-| 📖 Self-study learning modules                                                     | Description                                                                                                 |
-| ---------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------- |
-| [How to rock the technical interview](https://www.youtube.com/watch?v=X-7eKmYqM8M) | This video is full of great insights that will help you be successful in a vairety of tehcnical interviews. |
-| [Pair interview practice](./learning-modules/pair-interview-practice.md)           | Get to know these questions so that you can pair up with a fellow Collabie next week and practice.          |
+| 📖 Self-study learning modules                                                     | Description                                                                                                                     |
+| ---------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------- |
+| [How to rock the technical interview](https://www.youtube.com/watch?v=X-7eKmYqM8M) | This video is packed with invaluable insights to enhance your success in a variety of technical interviews.                     |
+| [Pair interview practice](./learning-modules/pair-interview-practice.md)           | Familiarize yourself with these questions so you can pair up with a fellow Collabie next week and engage in effective practice. |
 
 | 👋 Sync meetings | Agenda                                                                                                                                                            |
 | ---------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
