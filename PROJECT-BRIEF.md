@@ -75,8 +75,8 @@ This document serves as your comprehensive guide to all available resources nece
 | {DEV_3} & {DEV_4}     | [9. As a user, I want to mark an item on my shopping list as purchased so the app can learn how often I buy different items.]({REPO_URL}/issues/9)            |
 
 | 📖 Self-study learning modules                                                                | Description                                                                                                                                                                     |
-| --------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --- |
-| [What to include on your Linkedin profile](./learning-modules/what-to-include-on-linkedin.md) | Gain valuable insights on what to include on your LinkedIn profile and learn how to make impactful updates that will help you shine in front of hiring managers and recruiters. |     |
+| --------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [What to include on your Linkedin profile](./learning-modules/what-to-include-on-linkedin.md) | Gain valuable insights on what to include on your LinkedIn profile and learn how to make impactful updates that will help you shine in front of hiring managers and recruiters. |
 
 | 👋 Sync meetings | Agenda                                                                                                                                                            |
 | ---------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
