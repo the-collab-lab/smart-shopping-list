@@ -63,7 +63,7 @@ This document serves as your comprehensive guide to all available resources nece
 
 | 👋 Sync meetings | Agenda                                                                                                                                                            |
 | ---------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Weekly Sync      | - Demo issues #4 & #5 <br> - Retro <br> - This week's issue                                                                                                       |
+| Weekly Sync      | - Demo issues #4 & #5 <br> - Retro <br> - Collabies will be presented with issues #6 and #7                                                                       |
 | Pair Programming | Schedule a pairing session(s) with your partner early in the week to complete the development work required to meet the acceptance criteria of your Github issue. |
 | Optional         | Office Hours                                                                                                                                                      |
 
@@ -80,7 +80,7 @@ This document serves as your comprehensive guide to all available resources nece
 
 | 👋 Sync meetings | Agenda                                                                                                                                                            |
 | ---------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Weekly Sync      | - Demo <br> - Discuss Learning Modules <br> - Next week's issues                                                                                                  |
+| Weekly Sync      | - Demo issues #6 & #7 <br> - Discuss Learning Modules <br> - Collabies will be presented with issue #8 and issue #9                                               |
 | Pair Programming | Schedule a pairing session(s) with your partner early in the week to complete the development work required to meet the acceptance criteria of your Github issue. |
 | Optional         | Office Hours                                                                                                                                                      |
 
@@ -97,7 +97,7 @@ This document serves as your comprehensive guide to all available resources nece
 
 | 👋 Sync meetings | Agenda                                                                                                                                                            |
 | ---------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Weekly Sync      | - Demo <br> - Retro <br> - Next week's issues                                                                                                                     |
+| Weekly Sync      | - Demo issues #8 & #9 <br> - Retro <br> - Collabies will be presented with issue #10 and issue #11                                                                |
 | Pair Programming | Schedule a pairing session(s) with your partner early in the week to complete the development work required to meet the acceptance criteria of your Github issue. |
 | Optional         | Office Hours                                                                                                                                                      |
 
@@ -114,7 +114,7 @@ This document serves as your comprehensive guide to all available resources nece
 
 | 👋 Sync meetings | Agenda                                                                                                                                                            |
 | ---------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Weekly Sync      | - Demo <br> - Discuss Learning Modules <br> - Next week's issues                                                                                                  |
+| Weekly Sync      | - Demo issues #10 & #11 <br> - Discuss Learning Modules <br> - Collabies will be presented with issue #12 and issue #13                                           |
 | Pair Programming | Schedule a pairing session(s) with your partner early in the week to complete the development work required to meet the acceptance criteria of your Github issue. |
 | Optional         | Office Hours                                                                                                                                                      |
 
@@ -131,7 +131,7 @@ This document serves as your comprehensive guide to all available resources nece
 
 | 👋 Sync meetings | Agenda                                                                                                                                                            |
 | ---------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Weekly Sync      | - Demo <br> - Retro <br> - Next week's issues                                                                                                                     |
+| Weekly Sync      | - Demo issues #12 & #13 <br> - Retro <br> - Collabies will be presented with issue #14                                                                            |
 | Pair Programming | Schedule a pairing session(s) with your partner early in the week to complete the development work required to meet the acceptance criteria of your Github issue. |
 | Optional         | - Office Hours <br> - Design meeting with Mark                                                                                                                    |
 
@@ -147,7 +147,7 @@ This document serves as your comprehensive guide to all available resources nece
 
 | 👋 Sync meetings                   | Agenda                                                                                                                            |
 | ---------------------------------- | --------------------------------------------------------------------------------------------------------------------------------- |
-| Weekly Sync                        | - Demo <br> - Next week's issues                                                                                                  |
+| Weekly Sync                        | - Demo <br> - Planning                                                                                                            |
 | Pair Programming / Design planning | During this week, you should aim to collaborate as a full team to create a plan for implementing an engagind design for your app. |
 | Pair Interview Practice            | Get together with some fellow Collabies to practice some common interview questions.                                              |
 | Optional                           | - Office Hours <br> - Design meeting with Mark                                                                                    |
@@ -165,7 +165,7 @@ This document serves as your comprehensive guide to all available resources nece
 
 | 👋 Sync meetings                   | Agenda                                                                                                                            |
 | ---------------------------------- | --------------------------------------------------------------------------------------------------------------------------------- |
-| Weekly Sync                        |                                                                                                                                   |
+| Final Weekly Sync                  | - Demo <br> - Planning                                                                                                            |
 | Pair Programming / Design planning | During this week, you should aim to collaborate as a full team to create a plan for implementing an engagind design for your app. |
 | Job Fit Mock Interview             | Practice a job fit interview with the mentor you've been assigned                                                                 |
 | Optional                           | Office Hours                                                                                                                      |
