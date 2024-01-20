@@ -4,11 +4,10 @@ This document serves as your comprehensive guide to all available resources nece
 
 ## Smart Shopping List Resources
 
-- Site: {PRODUCTION_URL}
-- Repo: {REPO_URL}
-- Clone URL: {REPO_CLONE_URL}
-- Issue list: {PROJECT_BOARD_URL}
-- Database: {CONSOLE_URL}
+- See your app live at this production URL: {PRODUCTION_URL}
+- Work on your project by pushing code to this repository: {REPO_URL}
+- Access the issues that need to be completed to build this app: {PROJECT_BOARD_URL}
+- Access and edit your app's Firestore database: {CONSOLE_URL}
 
 ## Program Agenda & Curriculum
 
