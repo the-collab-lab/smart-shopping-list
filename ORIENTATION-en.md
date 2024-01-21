@@ -2,11 +2,11 @@
 
 ## What is The Collab Lab?
 
-The Collab Lab exists to help early-career engineers gain experience working collaboratively on a software team by working remotely on real-world projects with other early-career developers.
+The Collab Lab offers early-career engineers the chance to gain real-world collaborative experience by working remotely on projects with other developers. Our program includes modules to help you excel as a teammate and prepare for your first developer role.
 
 The goal of this project is to work together to build a “smart” shopping list that learns your shopping habits over time, putting items you are most likely to need to buy in the near future at the top.
 
-Every team builds their app from the same set of instructions, but each comes out a little different, reflecting the personality of the group.
+Every team builds their app from the same set of instructions, but each comes out a little differently, reflecting the personality of the group.
 
 :tv: &nbsp; Check out a video demo of the app team #6 made here:
 [![TCL Demo Video Screenshot](_resources/images/TCLDemoReadmePic.png)](https://youtu.be/uWgkwY_VBPo)
@@ -91,7 +91,7 @@ When you and your pair partner have working code that you believe is ready to be
 
 ## When does everything happen?
 
-The project should take about 40 hours total over the 8 weeks. That breaks down to roughly 5 hours per week. At least 2-3 hours of that time will be spent pair programming with your partner, 1 hour will be allotted for Weekly Syncs, and the rest of your time will be researching, code reviewing, and organizing your work.
+The project should take about 60 hours total over the 10 weeks. That breaks down to roughly 6 hours per week. At least 2-3 hours of that time will be spent pair programming with your partner, 1 hour will be allotted for Weekly Syncs, and the rest of your time will be researching, code reviewing, exploring learning modules, and organizing your work.
 
 ### Weekly Cadence
 
@@ -111,12 +111,12 @@ Having watched many cohorts before yours, our advice is to front-load the work a
 
 Every weekend the team will gather for 1-hour on Zoom for a Weekly Sync. Those meetings will always follow a familiar pattern:
 
-- Demos/discussion (15 minutes)
+- Demos/technical discussion (15 minutes)
   - The call will always start with each pair presenting a quick demo of the feature they built in “production”, the live version of the app that is deployed to the web for the world to see. This is followed by a concise walk-through of the code they wrote to build it. This is a common practice on most software teams that lets you practice talking about your work, which can come in handy in a job interview setting!
-- Learning module (30 minutes every other week)
-  - Presentations by mentors on topics that align with what your team is learning. Examples include git, code reviewing, pair programming, and communication for developers.
+- Learning module discussion (30 minutes every other week)
+  - Each week, you'll explore a range of modules at your own pace, focused on vital skills like git, code reviewing, job fit and technical interviewing. These modules will help you become a great teammate and prepare for your first developer role. In weekly syncs, you can discuss these topics with your team and gain valuable insights from your mentors.
 - Retrospective (30 minutes every other week)
-  - In our retros, we will share appreciations of our teammates, talk about what went well from a process perspective, and discuss what we could do to improve how we’re working together.
+  - In our retros, we will share appreciation of our teammates, talk about what went well from a process perspective, and discuss what we could do to improve how we’re working together.
 - Planning (15 minutes)
   - Mentors meet with pairs to talk through approach to the upcoming week’s work (15 minutes)
 
@@ -127,10 +127,10 @@ Whew, that was a lot, right? There’s a good chance (💯%) we’re forgetting 
 **Let's run through a quick, high-level recap of what your time at The Collab Lab will look like:**
 
 - During your time at The Collab Lab, you’ll gain experience working on a software team, led by people in the industry, on a project structured in a way very close to what you’d see at many companies.
-- We will spend 8 weeks working together to build a smart shopping list app. See a demo of the same app that a previous team built [here](https://www.youtube.com/watch?v=uWgkwY_VBPo&feature=youtu.be).
+- We will spend 10 weeks working together to build a smart shopping list app. See a demo of the same app that a previous team built [here](https://www.youtube.com/watch?v=uWgkwY_VBPo&feature=youtu.be).
 - Collab Lab teams consist of 4 developers and 3 mentors.
 - Each week, the team’s developers will break up into 2 pairs. Each pair will tackle a single issue from the project board in the team’s GitHub repo.
-- Developers will each spend about 5 hours per week working on the project. These hours include pair programming with weekly partners, researching, working with partner asynchronously on issues, creating pull requests, and doing code reviews.
+- Developers will each spend about 6 hours per week working on the project. These hours include pair programming with weekly partners, researching, working with partner asynchronously on issues, creating pull requests, and doing code reviews.
 - Each weekend during the program, the team will have a Weekly Sync where developers will demo the feature they built in the previous week and a mentor will lead a learning module or the team participate in a retrospective.
 
 ## What's Next?
