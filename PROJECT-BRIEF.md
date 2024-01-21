@@ -20,10 +20,10 @@ This document serves as your comprehensive guide to all available resources nece
 
 | 📖 Self-study learning modules                                                                                                                                                      | Description                                                                                                                                              |
 | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [Git Presentation](https://youtu.be/zeC5iwsHllk) ([slides](https://docs.google.com/presentation/d/1onRsF-5NQbky8BOac5cGsJunjBisvauQPEC4hOWPaGI/edit#slide=id.p))                    | Learn basic git commands needed for collaboration and version control.                                                                                   |
-| [Code Review Presentation](https://youtu.be/QcItLjFJ_Us) ([slides](https://docs.google.com/presentation/d/1GP_X91rd3W50GN6FjcLfAge8SD0O45qe7qdtHPO_D2I/edit?pli=1#slide=id.p))      | Learn how to complete an effective code review on a teammate's pull request.                                                                             |
-| [Communication for Devs Presentation](https://youtu.be/LVjG3qxtQX0) ([slides](https://docs.google.com/presentation/d/14kJTPHCVHsEmzqOLTqKCgL3QrwR7_BnIpN9oGJraT4c/edit#slide=id.p)) | Discover the value of effective communication for developers and gain valuable insights to enhance collaboration through better communication practices. |
-| [Pair Programming Presentation](https://youtu.be/yFVJ2gph_Uc) ([slides](https://docs.google.com/presentation/d/1dagfsS1zuiH1lDdVIhecVDU0vsDxgZu_Qf0fn3gOiF0/edit#slide=id.p))       | Understand the basics of effective pair programming and the essential roles involved for maximum productivity and success.                               |
+| [Git Presentation](https://youtu.be/zeC5iwsHllk) ([slides](https://docs.google.com/presentation/d/1onRsF-5NQbky8BOac5cGsJunjBisvauQPEC4hOWPaGI/edit#slide=id.p))                    | In this module, you'll learn basic git commands needed for collaboration and version control.                                                                 |
+| [Code Review Presentation](https://youtu.be/QcItLjFJ_Us) ([slides](https://docs.google.com/presentation/d/1GP_X91rd3W50GN6FjcLfAge8SD0O45qe7qdtHPO_D2I/edit?pli=1#slide=id.p))      | In this module, you'll learn all about code reviews and how you'll use them to ensure, or improve, the quality of your code before merging it to the main branch.                                                                             |
+| [Communication for Devs Presentation](https://youtu.be/LVjG3qxtQX0) ([slides](https://docs.google.com/presentation/d/14kJTPHCVHsEmzqOLTqKCgL3QrwR7_BnIpN9oGJraT4c/edit#slide=id.p)) |In this module, you'll learn how to communicate clearly through code comments and Pull Requests (PRs). |
+| [Pair Programming Presentation](https://youtu.be/yFVJ2gph_Uc) ([slides](https://docs.google.com/presentation/d/1dagfsS1zuiH1lDdVIhecVDU0vsDxgZu_Qf0fn3gOiF0/edit#slide=id.p))       | In this module, you'll understand the basics of effective pair programming and the essential roles involved for maximum productivity and success.                               |
 | Agile Presentation ([slides only](https://docs.google.com/presentation/d/1nQcgNFffFpyhjUMIjfRSdeSDsrWLYd8dqk-Z0FCkeBU/edit#slide=id.p))                                             |
 
 | 👋 Sync meetings | Agenda                                                                                                                                                                                                                                   |
@@ -41,7 +41,7 @@ This document serves as your comprehensive guide to all available resources nece
 
 | 📖 Self-study learning modules                                                                                                                                | Description                                                                                                                                     |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- |
-| [Accessibility](https://youtu.be/xrP2DIoZRnQ) ([slides](https://docs.google.com/presentation/d/1ux4HXGj3XAGZRD7qvOpjl36FYbTcUYGaaBHywc95taY/edit#slide=id.p)) | Understand the significance of accessibility and acquire practical techniques for testing your code to uphold a high standard of accessibility. |
+| [Accessibility](https://youtu.be/xrP2DIoZRnQ) ([slides](https://docs.google.com/presentation/d/1ux4HXGj3XAGZRD7qvOpjl36FYbTcUYGaaBHywc95taY/edit#slide=id.p)) | In this module, you'll learn about inclusive practices to ensure there are no barriers to prevent users from interacting with your application. |
 
 | 👋 Sync meetings | Agenda                                                                                                                                                            |
 | ---------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -58,7 +58,7 @@ This document serves as your comprehensive guide to all available resources nece
 
 | 📖 Self-study learning modules                         | Description                                                                                                                                                                            |
 | ------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [How to tell your story](https://youtu.be/Zhtd-DdTwSs) | Refine the skill of effectively telling your story in interviews and when meeting new people, allowing you to leave a lasting impression and stand out during the application process. |
+| [How to tell your story](https://youtu.be/Zhtd-DdTwSs) | In this video, you'll learn how to share your story with potential employers, regardless of your journey to code. |
 
 | 👋 Sync meetings | Agenda                                                                                                                                                            |
 | ---------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -75,7 +75,7 @@ This document serves as your comprehensive guide to all available resources nece
 
 | 📖 Self-study learning modules                                                                | Description                                                                                                                                                                     |
 | --------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [What to include on your Linkedin profile](./learning-modules/what-to-include-on-linkedin.md) | Gain valuable insights on what to include on your LinkedIn profile and learn how to make impactful updates that will help you shine in front of hiring managers and recruiters. |
+| [What to include on your Linkedin profile](./learning-modules/what-to-include-on-linkedin.md) | In this module, you'll learn the steps you need to take to prepare your LinkedIn for a mentor review. |
 
 | 👋 Sync meetings | Agenda                                                                                                                                                            |
 | ---------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -92,7 +92,7 @@ This document serves as your comprehensive guide to all available resources nece
 
 | 📖 Self-study learning modules                                             | Description                                                                                                                                                           |
 | -------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [Navigating finances during a career change](https://youtu.be/xtkgOmFPUJU) | This presentation will teach you invaluable techniques on how to effectively navigate finances during a career change, setting you up for success in your transition. |
+| [Navigating finances during a career change](https://youtu.be/xtkgOmFPUJU) |In this video, you'll learn how to manage your finances as you transition into a role as a developer. |
 
 | 👋 Sync meetings | Agenda                                                                                                                                                            |
 | ---------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -109,7 +109,7 @@ This document serves as your comprehensive guide to all available resources nece
 
 | 📖 Self-study learning modules                                                       | Description                                                                                                                       |
 | ------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------- |
-| [What to ask your interviewers](./learning-modules/what-to-ask-your-interviewers.md) | Practice the art of asking impactful interview questions and crafting your wording to leave a positive impression as a candidate. |
+| [What to ask your interviewers](./learning-modules/what-to-ask-your-interviewers.md) | In this module, you'll learn how to ask questions during interviews to ensure the role and or company is a good fit for both you and your potential employer. |
 
 | 👋 Sync meetings | Agenda                                                                                                                                                            |
 | ---------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -125,8 +125,8 @@ This document serves as your comprehensive guide to all available resources nece
 
 | 📖 Self-study learning modules                                                     | Description                                                                                                                     |
 | ---------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------- |
-| [How to rock the technical interview](https://www.youtube.com/watch?v=X-7eKmYqM8M) | This video is packed with invaluable insights to enhance your success in a variety of technical interviews.                     |
-| [Pair interview practice](./learning-modules/pair-interview-practice.md)           | Familiarize yourself with these questions so you can pair up with a fellow Collabie next week and engage in effective practice. |
+| [How to rock the technical interview](https://www.youtube.com/watch?v=X-7eKmYqM8M) | In this video, you'll learn invaluable insights to enhance your success in a variety of technical interviews.                     |
+| [Pair interview practice](./learning-modules/pair-interview-practice.md)           | In this exercize, you'll familiarize yourself with questions so you can pair up with a fellow Collabie next week and engage in effective practice. |
 
 | 👋 Sync meetings | Agenda                                                                                                                                                            |
 | ---------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
