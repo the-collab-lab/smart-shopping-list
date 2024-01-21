@@ -13,6 +13,12 @@ This document serves as your comprehensive guide to all available resources nece
 
 ### Week 1, {DATES_WEEK_1}
 
+| 👋 Sync meetings | Agenda                                                                                                                                                                                                                                   |
+| ---------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Weekly Sync      | - Mentors pair live through issue #1 so Collabies can get a demostration of the full development cycle at Collab Lab and we can ensure everyone has Firebase auth for their app <br> - Collabies will be presented with issues #2 and #3 |
+| Pair Programming | Schedule a pairing session(s) with your partner early in the week to complete the development work required to meet the acceptance criteria of your Github issue.                                                                        |
+| Optional         | Office Hours                                                                                                                                                                                                                             |
+
 | 🤝 Developer pairings | 🖥 Assigned Github issue                                                                                                                    |
 | --------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- |
 | {DEV_1} & {DEV_2}     | [2. As a user, I want to read all of my shopping lists and the items in them]({REPO_URL}/issues/2)                                          |
@@ -26,13 +32,13 @@ This document serves as your comprehensive guide to all available resources nece
 | [Pair Programming Presentation](https://youtu.be/yFVJ2gph_Uc) ([slides](https://docs.google.com/presentation/d/1dagfsS1zuiH1lDdVIhecVDU0vsDxgZu_Qf0fn3gOiF0/edit#slide=id.p))       | Understand the basics of effective pair programming and the essential roles involved for maximum productivity and success.                               |
 | Agile Presentation ([slides only](https://docs.google.com/presentation/d/1nQcgNFffFpyhjUMIjfRSdeSDsrWLYd8dqk-Z0FCkeBU/edit#slide=id.p))                                             |
 
-| 👋 Sync meetings | Agenda                                                                                                                                                                                                                                   |
-| ---------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Weekly Sync      | - Mentors pair live through issue #1 so Collabies can get a demostration of the full development cycle at Collab Lab and we can ensure everyone has Firebase auth for their app <br> - Collabies will be presented with issues #2 and #3 |
-| Pair Programming | Schedule a pairing session(s) with your partner early in the week to complete the development work required to meet the acceptance criteria of your Github issue.                                                                        |
-| Optional         | Office Hours                                                                                                                                                                                                                             |
-
 ### Week 2, {DATES_WEEK_2}
+
+| 👋 Sync meetings | Agenda                                                                                                                                                            |
+| ---------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Weekly Sync      | - Demo issues #2 & #3 <br> - Discuss Self-study learning Modules <br> - Collabies will be presented with issue #4 and issue #5                                    |
+| Pair Programming | Schedule a pairing session(s) with your partner early in the week to complete the development work required to meet the acceptance criteria of your Github issue. |
+| Optional         | Office Hours                                                                                                                                                      |
 
 | 🤝 Developer pairings | 🖥 Assigned Github issue                                                                                              |
 | --------------------- | --------------------------------------------------------------------------------------------------------------------- |
@@ -43,13 +49,13 @@ This document serves as your comprehensive guide to all available resources nece
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- |
 | [Accessibility](https://youtu.be/xrP2DIoZRnQ) ([slides](https://docs.google.com/presentation/d/1ux4HXGj3XAGZRD7qvOpjl36FYbTcUYGaaBHywc95taY/edit#slide=id.p)) | Understand the significance of accessibility and acquire practical techniques for testing your code to uphold a high standard of accessibility. |
 
+### Week 3, {DATES_WEEK_3}
+
 | 👋 Sync meetings | Agenda                                                                                                                                                            |
 | ---------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Weekly Sync      | - Demo issues #2 & #3 <br> - Discuss Self-study learning Modules <br> - Collabies will be presented with issue #4 and issue #5                                    |
+| Weekly Sync      | - Demo issues #4 & #5 <br> - Retro <br> - Collabies will be presented with issues #6 and #7                                                                       |
 | Pair Programming | Schedule a pairing session(s) with your partner early in the week to complete the development work required to meet the acceptance criteria of your Github issue. |
 | Optional         | Office Hours                                                                                                                                                      |
-
-### Week 3, {DATES_WEEK_3}
 
 | 🤝 Developer pairings | 🖥 Assigned Github issue                                                                                                |
 | --------------------- | ----------------------------------------------------------------------------------------------------------------------- |
@@ -60,13 +66,13 @@ This document serves as your comprehensive guide to all available resources nece
 | ------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [How to tell your story](https://youtu.be/Zhtd-DdTwSs) | Refine the skill of effectively telling your story in interviews and when meeting new people, allowing you to leave a lasting impression and stand out during the application process. |
 
+### Week 4, {DATES_WEEK_4}
+
 | 👋 Sync meetings | Agenda                                                                                                                                                            |
 | ---------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Weekly Sync      | - Demo issues #4 & #5 <br> - Retro <br> - Collabies will be presented with issues #6 and #7                                                                       |
+| Weekly Sync      | - Demo issues #6 & #7 <br> - Discuss Self-study learning Modules <br> - Collabies will be presented with issue #8 and issue #9                                    |
 | Pair Programming | Schedule a pairing session(s) with your partner early in the week to complete the development work required to meet the acceptance criteria of your Github issue. |
 | Optional         | Office Hours                                                                                                                                                      |
-
-### Week 4, {DATES_WEEK_4}
 
 | 🤝 Developer pairings | 🖥 Assigned Github issue                                                                                                                                      |
 | --------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -77,13 +83,13 @@ This document serves as your comprehensive guide to all available resources nece
 | --------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [What to include on your Linkedin profile](./learning-modules/what-to-include-on-linkedin.md) | Gain valuable insights on what to include on your LinkedIn profile and learn how to make impactful updates that will help you shine in front of hiring managers and recruiters. |
 
+### Week 5, {DATES_WEEK_5}
+
 | 👋 Sync meetings | Agenda                                                                                                                                                            |
 | ---------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Weekly Sync      | - Demo issues #6 & #7 <br> - Discuss Self-study learning Modules <br> - Collabies will be presented with issue #8 and issue #9                                    |
+| Weekly Sync      | - Demo issues #8 & #9 <br> - Retro <br> - Collabies will be presented with issue #10 and issue #11                                                                |
 | Pair Programming | Schedule a pairing session(s) with your partner early in the week to complete the development work required to meet the acceptance criteria of your Github issue. |
 | Optional         | Office Hours                                                                                                                                                      |
-
-### Week 5, {DATES_WEEK_5}
 
 | 🤝 Developer pairings | 🖥 Assigned Github issue                                                                                                                                                                                |
 | --------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -94,13 +100,13 @@ This document serves as your comprehensive guide to all available resources nece
 | -------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [Navigating finances during a career change](https://youtu.be/xtkgOmFPUJU) | This presentation will teach you invaluable techniques on how to effectively navigate finances during a career change, setting you up for success in your transition. |
 
+### Week 6, {DATES_WEEK_6}
+
 | 👋 Sync meetings | Agenda                                                                                                                                                            |
 | ---------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Weekly Sync      | - Demo issues #8 & #9 <br> - Retro <br> - Collabies will be presented with issue #10 and issue #11                                                                |
+| Weekly Sync      | - Demo issues #10 & #11 <br> - Discuss Self-study learning Modules <br> - Collabies will be presented with issue #12 and issue #13                                |
 | Pair Programming | Schedule a pairing session(s) with your partner early in the week to complete the development work required to meet the acceptance criteria of your Github issue. |
 | Optional         | Office Hours                                                                                                                                                      |
-
-### Week 6, {DATES_WEEK_6}
 
 | 🤝 Developer pairings | 🖥 Assigned Github issue                                                                                                                                                                              |
 | --------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -111,13 +117,13 @@ This document serves as your comprehensive guide to all available resources nece
 | ------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------- |
 | [What to ask your interviewers](./learning-modules/what-to-ask-your-interviewers.md) | Practice the art of asking impactful interview questions and crafting your wording to leave a positive impression as a candidate. |
 
+### Week 7, {DATES_WEEK_7}
+
 | 👋 Sync meetings | Agenda                                                                                                                                                            |
 | ---------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Weekly Sync      | - Demo issues #10 & #11 <br> - Discuss Self-study learning Modules <br> - Collabies will be presented with issue #12 and issue #13                                |
+| Weekly Sync      | - Demo issues #12 & #13 <br> - Retro <br> - Collabies will be presented with issue #14                                                                            |
 | Pair Programming | Schedule a pairing session(s) with your partner early in the week to complete the development work required to meet the acceptance criteria of your Github issue. |
-| Optional         | Office Hours                                                                                                                                                      |
-
-### Week 7, {DATES_WEEK_7}
+| Optional         | - Office Hours <br> - Design meeting with Mark                                                                                                                    |
 
 | 🤝 Developer pairings | 🖥 Assigned Github issue                                                                 |
 | --------------------- | ---------------------------------------------------------------------------------------- |
@@ -128,13 +134,14 @@ This document serves as your comprehensive guide to all available resources nece
 | [How to rock the technical interview](https://www.youtube.com/watch?v=X-7eKmYqM8M) | This video is packed with invaluable insights to enhance your success in a variety of technical interviews.                     |
 | [Pair interview practice](./learning-modules/pair-interview-practice.md)           | Familiarize yourself with these questions so you can pair up with a fellow Collabie next week and engage in effective practice. |
 
-| 👋 Sync meetings | Agenda                                                                                                                                                            |
-| ---------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Weekly Sync      | - Demo issues #12 & #13 <br> - Retro <br> - Collabies will be presented with issue #14                                                                            |
-| Pair Programming | Schedule a pairing session(s) with your partner early in the week to complete the development work required to meet the acceptance criteria of your Github issue. |
-| Optional         | - Office Hours <br> - Design meeting with Mark                                                                                                                    |
-
 ### Week 8, {DATES_WEEK_8}
+
+| 👋 Sync meetings                   | Agenda                                                                                                                            |
+| ---------------------------------- | --------------------------------------------------------------------------------------------------------------------------------- |
+| Weekly Sync                        | - Demo <br> - Planning                                                                                                            |
+| Pair Programming / Design planning | During this week, you should aim to collaborate as a full team to create a plan for implementing an engagind design for your app. |
+| Pair Interview Practice            | Get together with some fellow Collabies to practice some common interview questions.                                              |
+| Optional                           | - Office Hours <br> - Design meeting with Mark                                                                                    |
 
 | 🤝 Developer pairings | 🖥 Assigned Github issue                                                                |
 | --------------------- | --------------------------------------------------------------------------------------- |
@@ -144,14 +151,14 @@ This document serves as your comprehensive guide to all available resources nece
 | -------------------------------------------------------------------------------------------- |
 | No Self-study learning modules this week. A great time to catch up on any outstanding tasks! |
 
+### Week 9, {DATES_WEEK_9}
+
 | 👋 Sync meetings                   | Agenda                                                                                                                            |
 | ---------------------------------- | --------------------------------------------------------------------------------------------------------------------------------- |
-| Weekly Sync                        | - Demo <br> - Planning                                                                                                            |
+| Final Weekly Sync                  | - Demo <br> - Planning                                                                                                            |
 | Pair Programming / Design planning | During this week, you should aim to collaborate as a full team to create a plan for implementing an engagind design for your app. |
-| Pair Interview Practice            | Get together with some fellow Collabies to practice some common interview questions.                                              |
-| Optional                           | - Office Hours <br> - Design meeting with Mark                                                                                    |
-
-### Week 9, {DATES_WEEK_9}
+| Job Fit Mock Interview             | Practice a job fit interview with the mentor you've been assigned                                                                 |
+| Optional                           | Office Hours                                                                                                                      |
 
 | 🤝 Developer pairings | 🖥 Assigned Github issue                                                                |
 | --------------------- | --------------------------------------------------------------------------------------- |
@@ -162,14 +169,12 @@ This document serves as your comprehensive guide to all available resources nece
 | Review, prepare for, schedule, and complete the [Job-Fit Mock Interview](./learning-modules/mock-interview-job-fit.md) |                                                                                                   |
 | [Takehome Assignment](./learning-modules/complete-take-home-assignment.md)                                             | Complete the take home assignement that will be used in your Technical Mock Interview in Week 10. |
 
-| 👋 Sync meetings                   | Agenda                                                                                                                            |
-| ---------------------------------- | --------------------------------------------------------------------------------------------------------------------------------- |
-| Final Weekly Sync                  | - Demo <br> - Planning                                                                                                            |
-| Pair Programming / Design planning | During this week, you should aim to collaborate as a full team to create a plan for implementing an engagind design for your app. |
-| Job Fit Mock Interview             | Practice a job fit interview with the mentor you've been assigned                                                                 |
-| Optional                           | Office Hours                                                                                                                      |
-
 ### Week 10, {DATES_WEEK_10}
+
+| 👋 Sync meetings          | Agenda                                                                                                                          |
+| ------------------------- | ------------------------------------------------------------------------------------------------------------------------------- |
+| Technical Mock Interview  | Practice a technical mock interview using your take-home assignment with the mentor you've been assigned.                       |
+| Cohort Demo / Celebration | Join all the teams in your cohort to walk through your app and celebrate all the hard work we've put in over the last 10 weeks! |
 
 | 🤝 Developer pairings | 🖥 Assigned Github issue                                                                |
 | --------------------- | --------------------------------------------------------------------------------------- |
@@ -178,8 +183,3 @@ This document serves as your comprehensive guide to all available resources nece
 | 📖 Self-study learning modules                                                                                           |
 | ------------------------------------------------------------------------------------------------------------------------ |
 | Review, prepare for, schedule, and complete the [Technical Mock Interview](./learning-modules/mock-interview-job-fit.md) |
-
-| 👋 Sync meetings          | Agenda                                                                                                                          |
-| ------------------------- | ------------------------------------------------------------------------------------------------------------------------------- |
-| Technical Mock Interview  | Practice a technical mock interview using your take-home assignment with the mentor you've been assigned.                       |
-| Cohort Demo / Celebration | Join all the teams in your cohort to walk through your app and celebrate all the hard work we've put in over the last 10 weeks! |
