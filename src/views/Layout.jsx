@@ -40,7 +40,7 @@ export function Layout() {
 							List
 						</a>
 						<a href="#" className="Nav-link">
-							Add Item
+							Manage List
 						</a>
 					</div>
 				</nav>
