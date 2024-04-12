@@ -1,11 +1,32 @@
 {
 	"extends": [
+		"plugin:react/recommended",
+		"plugin:react/jsx-runtime",
 		"plugin:jsx-a11y/recommended",
-		"prettier",
-		"react-app",
-		"react-app/jest"
+		"plugin:vitest-globals/recommended",
+		"prettier"
 	],
+	"env": {
+		"browser": true
+	},
+	"parserOptions": {
+		"ecmaVersion": "latest",
+		"sourceType": "module"
+	},
+	"settings": { "react": { "version": "18.2" } },
 	"rules": {
-		"react/jsx-filename-extension": "error"
-	}
+		"no-duplicate-imports": "warn",
+		"no-unused-vars": "warn",
+		"react/jsx-filename-extension": [1, { "allow": "as-needed" }],
+		"react/prop-types": "off",
+		"react/jsx-no-target-blank": "off"
+	},
+	"overrides": [
+		{
+			"files": ["**/__tests__/*.{j,t}s?(x)", "**/*.(test|spec).{j,t}s?(x)"],
+			"env": {
+				"vitest-globals/env": true
+			}
+		}
+	]
 }
