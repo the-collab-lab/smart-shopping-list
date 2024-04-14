@@ -1,6 +1,12 @@
+import { Dispatch, SetStateAction } from 'react';
 import './Home.css';
 
-export function Home({ data, setListPath }) {
+interface HomeProps {
+	data: any;
+	setListPath: Dispatch<SetStateAction<string | null>>;
+}
+
+export function Home({ data, setListPath }: HomeProps) {
 	return (
 		<div className="Home">
 			<p>

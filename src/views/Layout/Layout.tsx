@@ -1,8 +1,8 @@
 import { Outlet } from 'react-router-dom';
 
 import './Layout.css';
-import { auth } from '../api/config.js';
-import { useAuth, SignInButton, SignOutButton } from '../api/useAuth.jsx';
+import { auth } from '../../api/config';
+import { useAuth, SignInButton, SignOutButton } from '../../api/useAuth.jsx';
 
 /**
  * TODO: The links defined in this file don't work!

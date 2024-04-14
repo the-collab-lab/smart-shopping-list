@@ -1,5 +1,3 @@
-import { ListItem } from '../components';
-
 export function List({ data }) {
 	return (
 		<>
