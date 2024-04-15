@@ -46,8 +46,8 @@
 		"preview": "vite preview",
 		"prepare": "husky",
 		"coverage": "vitest run --coverage",
-		"eslint-check": "eslint .",
-		"fix-prettier": "npx eslint . --fix"
+		"eslint-check": "eslint src/**/*.{ts,tsx}",
+		"fix-prettier": "npx eslint src/**/*.{ts,tsx} --fix"
 	},
 	"lint-staged": {
 		"*.{js,jsx}": [
