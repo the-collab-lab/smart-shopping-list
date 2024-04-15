@@ -38,7 +38,7 @@ export function Layout() {
 						<a href="/#" className="Nav-link">
 							List
 						</a>
-						<a href="#" className="Nav-link">
+						<a href="/#" className="Nav-link">
 							Manage List
 						</a>
 					</div>
