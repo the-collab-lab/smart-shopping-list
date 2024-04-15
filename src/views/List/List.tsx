@@ -1,4 +1,12 @@
-export function List({ data }) {
+import { DocumentData } from 'firebase/firestore';
+
+interface ListProps {
+	data: DocumentData[];
+}
+
+export function List({ data }: ListProps) {
+	console.log('remove this!', { data });
+
 	return (
 		<>
 			<p>

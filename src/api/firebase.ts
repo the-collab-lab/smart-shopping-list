@@ -13,7 +13,7 @@ import { db } from './config';
 import { getFutureDate } from '../utils/dates';
 import { User } from 'firebase/auth';
 
-interface SharedList {
+export interface SharedList {
 	name: string;
 	path: string;
 }

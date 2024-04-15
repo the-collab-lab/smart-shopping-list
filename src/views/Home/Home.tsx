@@ -1,12 +1,15 @@
 import { Dispatch, SetStateAction } from 'react';
 import './Home.css';
+import { SharedList } from '../../api/firebase';
 
 interface HomeProps {
-	data: any;
+	data: SharedList[];
 	setListPath: Dispatch<SetStateAction<string | null>>;
 }
 
 export function Home({ data, setListPath }: HomeProps) {
+	console.log('remove this!', { data, setListPath });
+
 	return (
 		<div className="Home">
 			<p>

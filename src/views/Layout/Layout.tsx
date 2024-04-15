@@ -1,7 +1,6 @@
 import { Outlet } from 'react-router-dom';
 
 import './Layout.css';
-import { auth } from '../../api/config';
 import { useAuth, SignInButton, SignOutButton } from '../../api/useAuth.jsx';
 
 /**
@@ -19,9 +18,9 @@ export function Layout() {
 			<div className="Layout">
 				<header className="Layout-header">
 					<h1>Smart shopping list</h1>
-					{!!user ? (
+					{user ? (
 						<div>
-							<span>Signed in as {auth.currentUser.displayName}</span> (
+							<span>Signed in as {user.displayName}</span> (
 							<SignOutButton />)
 						</div>
 					) : (
@@ -33,13 +32,13 @@ export function Layout() {
 				</main>
 				<nav className="Nav">
 					<div className="Nav-container">
-						<a href="#" className="Nav-link">
+						<a href="/#" className="Nav-link">
 							Home
 						</a>
-						<a href="#" className="Nav-link">
+						<a href="/#" className="Nav-link">
 							List
 						</a>
-						<a href="#" className="Nav-link">
+						<a href="/#" className="Nav-link">
 							Manage List
 						</a>
 					</div>
