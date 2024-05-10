@@ -157,7 +157,7 @@ This document serves as your comprehensive guide to all available resources nece
 | ---------------------------------- | --------------------------------------------------------------------------------------------------------------------------------- |
 | Final Weekly Sync                  | - Demo <br> - Retro <br> - Planning                                                                                                            |
 | Pair Programming / Design planning | During this week, you should aim to collaborate as a full team to create a plan for implementing an engagind design for your app. |
-| Job Fit Mock Interview             | Practice a job fit interview with the mentor you've been assigned                                                                 |
+| Job Fit Mock Interview             | Work with your team of mentors to schedule an individual job fit mock interview this week. |
 | Optional                           | Office Hours                                                                                                                      |
 
 | 🤝 Developer pairings | 🖥 Assigned Github issue                                                                |
@@ -173,7 +173,7 @@ This document serves as your comprehensive guide to all available resources nece
 
 | 👋 Sync meetings          | Agenda                                                                                                                          |
 | ------------------------- | ------------------------------------------------------------------------------------------------------------------------------- |
-| Technical Mock Interview  | Practice a technical mock interview using your take-home assignment with the mentor you've been assigned.                       |
+| Technical Mock Interview  | Work with your team of mentors to schedule a technical mock interview where you'll cover the take-home assignment you completed last week.   |
 | Cohort Demo / Celebration | Join all the teams in your cohort to walk through your app and celebrate all the hard work we've put in over the last 10 weeks! |
 
 | 🤝 Developer pairings | 🖥 Assigned Github issue                                                                |
@@ -182,4 +182,4 @@ This document serves as your comprehensive guide to all available resources nece
 
 | 📖 Self-study learning modules                                                                                           |
 | ------------------------------------------------------------------------------------------------------------------------ |
-| Review, prepare for, schedule, and complete the [Technical Mock Interview](./learning-modules/mock-interview-job-fit.md) |
+| Review, prepare for, schedule, and complete the [Technical Mock Interview](./learning-modules/mock-interview-technical.md) |
