@@ -4,20 +4,24 @@
 		"plugin:react/jsx-runtime",
 		"plugin:jsx-a11y/recommended",
 		"plugin:vitest-globals/recommended",
-		"prettier"
+		"prettier",
+		"eslint:recommended",
+		"plugin:@typescript-eslint/recommended",
+		"plugin:react-hooks/recommended"
 	],
 	"env": {
 		"browser": true
 	},
 	"parserOptions": {
+		"parser": "typescript-eslint-parser",
 		"ecmaVersion": "latest",
 		"sourceType": "module"
 	},
+	"plugins": ["typescript"],
 	"settings": { "react": { "version": "18.2" } },
 	"rules": {
 		"no-duplicate-imports": "warn",
 		"no-unused-vars": "warn",
-		"react/jsx-filename-extension": [1, { "allow": "as-needed" }],
 		"react/prop-types": "off",
 		"react/jsx-no-target-blank": "off"
 	},

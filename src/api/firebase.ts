@@ -6,10 +6,17 @@ import {
 	doc,
 	onSnapshot,
 	updateDoc,
+	DocumentData,
 } from 'firebase/firestore';
 import { useEffect, useState } from 'react';
 import { db } from './config';
-import { getFutureDate } from '../utils';
+import { getFutureDate } from '../utils/dates';
+import { User } from 'firebase/auth';
+
+export interface SharedList {
+	name: string;
+	path: string;
+}
 
 /**
  * A custom hook that subscribes to the user's shopping lists in our Firestore
@@ -18,11 +25,11 @@ import { getFutureDate } from '../utils';
  * @param {string | null} userEmail
  * @returns
  */
-export function useShoppingLists(userId, userEmail) {
-	// Start with an empty array for our data.
-	const initialState = [];
-	const [data, setData] = useState(initialState);
-
+export function useShoppingLists(
+	userId: string | null,
+	userEmail: string | null,
+) {
+	const [data, setData] = useState<SharedList[]>([]);
 	useEffect(() => {
 		// If we don't have a userId or userEmail (the user isn't signed in),
 		// we can't get the user's lists.
@@ -33,7 +40,11 @@ export function useShoppingLists(userId, userEmail) {
 
 		onSnapshot(userDocRef, (docSnap) => {
 			if (docSnap.exists()) {
-				const listRefs = docSnap.data().sharedLists;
+				const listRefs = docSnap.data().sharedLists as {
+					id: string;
+					path: string;
+				}[];
+
 				const newData = listRefs.map((listRef) => {
 					// We keep the list's id and path so we can use them later.
 					return { name: listRef.id, path: listRef.path };
@@ -52,11 +63,10 @@ export function useShoppingLists(userId, userEmail) {
  * @param {string | null} listPath
  * @see https://firebase.google.com/docs/firestore/query-data/listen
  */
-export function useShoppingListData(listPath) {
+export function useShoppingListData(listPath: string | null) {
 	// Start with an empty array for our data.
 	/** @type {import('firebase/firestore').DocumentData[]} */
-	const initialState = [];
-	const [data, setData] = useState(initialState);
+	const [data, setData] = useState([] as DocumentData[]);
 
 	useEffect(() => {
 		if (!listPath) return;
@@ -90,7 +100,9 @@ export function useShoppingListData(listPath) {
  * Add a new user to the users collection in Firestore.
  * @param {Object} user The user object from Firebase Auth.
  */
-export async function addUserToDatabase(user) {
+export async function addUserToDatabase(user: User) {
+	if (!user.email) return;
+
 	// Check if the user already exists in the database.
 	const userDoc = await getDoc(doc(db, 'users', user.email));
 	// If the user already exists, we don't need to do anything.
@@ -115,7 +127,11 @@ export async function addUserToDatabase(user) {
  * @param {string} userEmail The email of the user who owns the list.
  * @param {string} listName The name of the new list.
  */
-export async function createList(userId, userEmail, listName) {
+export async function createList(
+	userId: string,
+	userEmail: string,
+	listName: string,
+) {
 	const listDocRef = doc(db, userId, listName);
 
 	await setDoc(listDocRef, {
@@ -134,7 +150,11 @@ export async function createList(userId, userEmail, listName) {
  * @param {string} listPath The path to the list to share.
  * @param {string} recipientEmail The email of the user to share the list with.
  */
-export async function shareList(listPath, currentUserId, recipientEmail) {
+export async function shareList(
+	listPath: string,
+	currentUserId: string,
+	recipientEmail: string,
+) {
 	// Check if current user is owner.
 	if (!listPath.includes(currentUserId)) {
 		return;
@@ -161,7 +181,13 @@ export async function shareList(listPath, currentUserId, recipientEmail) {
  * @param {string} itemData.itemName The name of the item.
  * @param {number} itemData.daysUntilNextPurchase The number of days until the user thinks they'll need to buy the item again.
  */
-export async function addItem(listPath, { itemName, daysUntilNextPurchase }) {
+export async function addItem(
+	listPath: string,
+	{
+		itemName,
+		daysUntilNextPurchase,
+	}: { itemName: string; daysUntilNextPurchase: number },
+) {
 	const listCollectionRef = collection(db, listPath, 'items');
 	// TODO: Replace this call to console.log with the appropriate
 	// Firebase function, so this information is sent to your database!

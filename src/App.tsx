@@ -1,10 +1,11 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-
-import { Home, Layout, List, ManageList } from './views';
-
-import { useAuth, useShoppingListData, useShoppingLists } from './api';
-
-import { useStateWithStorage } from './utils';
+import { useAuth } from './api/useAuth';
+import { useStateWithStorage } from './hooks/hooks';
+import { useShoppingListData, useShoppingLists } from './api/firebase';
+import { Layout } from './views/Layout/Layout';
+import { Home } from './views/Home/Home';
+import { List } from './views/List/List';
+import { ManageList } from './views/ManageList/ManageList';
 
 export function App() {
 	/**
@@ -25,8 +26,8 @@ export function App() {
 	 * Check ./api/useAuth.jsx for its implementation.
 	 */
 	const { user } = useAuth();
-	const userId = user?.uid;
-	const userEmail = user?.email;
+	const userId = user?.uid ?? null;
+	const userEmail = user?.email ?? null;
 
 	/**
 	 * This custom hook takes a user ID and email and fetches
