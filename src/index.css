@@ -14,6 +14,13 @@
 	--color-border: hsla(220, 13%, 32%, 1);
 	--color-error: var(--color-red);
 	--color-text: var(--color-white);
+
+	/**
+ * Set the value of 1rem to 10px to make relative units
+ * easier to work with.
+ * (The default is 16px. 16 * 62.5% = 10)
+ */
+	font-size: 62.5%;
 }
 
 @media screen and (prefers-color-scheme: light) {
@@ -38,22 +45,6 @@
 	box-sizing: border-box;
 }
 
-/**
- * Make sure the app fills the height of the screen.
- */
-body {
-	height: 100dvh;
-}
-
-/**
- * Set the value of 1rem to 10px to make relative units
- * easier to work with.
- * (The default is 16px. 16 * 62.5% = 10)
- */
-html {
-	font-size: 62.5%;
-}
-
 body {
 	background-color: var(--color-bg);
 	color: var(--color-text);
@@ -71,6 +62,8 @@ body {
 		arial,
 		sans-serif;
 	font-size: 1.8rem;
+	/** Make sure the app fills the height of the screen. */
+	height: 100dvh;
 	line-height: 1.4;
 	margin: 0;
 
@@ -94,7 +87,7 @@ code {
 		Lucida Console,
 		monospace;
 	font-size: 0.9em;
-	padding: 0.15em 0.15em;
+	padding: 2px 2px;
 }
 
 @media screen and (prefers-color-scheme: light) {
