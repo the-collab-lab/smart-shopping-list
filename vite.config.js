@@ -36,7 +36,7 @@ const PWAConfig = {
 };
 
 // https://vitejs.dev/config/
-export default defineConfig({
+export default defineConfig(({ mode }) => ({
 	build: {
 		outDir: './build',
 		target: 'esnext',
@@ -57,7 +57,7 @@ export default defineConfig({
 		},
 	},
 	plugins: [
-		eslint({ cache: false, formatter: 'stylish' }),
+		mode === 'development' && eslint(),
 		react(),
 		svgr({ exportAsDefault: true }),
 		VitePWA(PWAConfig),
@@ -67,10 +67,5 @@ export default defineConfig({
 		globals: true,
 		environment: 'jsdom',
 		setupFiles: './tests/setup.js',
-		server: {
-			// Prevents Vitest from crashing when it
-			// encounters a module that exports CSS.
-			deps: { inline: true },
-		},
 	},
-});
+}));
