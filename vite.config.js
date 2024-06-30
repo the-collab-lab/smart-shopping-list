@@ -36,11 +36,10 @@ const PWAConfig = {
 };
 
 // https://vitejs.dev/config/
-export default defineConfig({
+export default defineConfig(({ mode }) => ({
 	build: {
 		outDir: './build',
 		target: 'esnext',
-		commonjsOptions: { include: [] },
 		rollupOptions: {
 			output: {
 				manualChunks: (id) => {
@@ -57,9 +56,8 @@ export default defineConfig({
 			},
 		},
 	},
-	optimizeDeps: { disabled: false },
 	plugins: [
-		eslint({ cache: false, formatter: 'stylish' }),
+		mode === 'development' && eslint(),
 		react(),
 		svgr({ exportAsDefault: true }),
 		VitePWA(PWAConfig),
@@ -70,4 +68,4 @@ export default defineConfig({
 		environment: 'jsdom',
 		setupFiles: './tests/setup.js',
 	},
-});
+}));

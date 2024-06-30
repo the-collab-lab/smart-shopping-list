@@ -14,16 +14,7 @@ _For an example of how to fill this template out, [see this Pull Request](https:
 
 ## Type of Changes
 
-<!-- Put an `✓` for the applicable box: -->
-
-|     | Type                       |
-| --- | -------------------------- |
-|     | :bug: Bug fix              |
-| ✓   | :sparkles: New feature     |
-|     | :hammer: Refactoring       |
-|     | :100: Add tests            |
-|     | :link: Update dependencies |
-|     | :scroll: Docs              |
+Use one or more labels to help your team understand the nature of the change(s) you’re proposing. E.g., `bug fix` or `enhancement` are common ones.
 
 ## Updates
 
