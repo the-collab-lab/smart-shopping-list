@@ -40,9 +40,10 @@
 		"prepare": "husky"
 	},
 	"lint-staged": {
-		"*.{js,jsx}": [
-			"eslint --cache --fix"
+		"*.{js,jsx,ts,tsx}": [
+			"eslint --cache --fix",
+			"prettier --cache --write"
 		],
-		"*.{html,js,jsx,ts,tsx,json,css,scss,md}": "prettier --cache --write"
+		"*.{html,json,css,scss,md}": "prettier --cache --write"
 	}
 }
