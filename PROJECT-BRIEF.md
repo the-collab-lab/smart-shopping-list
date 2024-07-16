@@ -24,13 +24,9 @@ This document serves as your comprehensive guide to all available resources nece
 | {DEV_1} & {DEV_2}     | [2. As a user, I want to read all of my shopping lists and the items in them]({REPO_URL}/issues/2)                                          |
 | {DEV_3} & {DEV_4}     | [3. As a user, I want to be able to navigate to all the pages in the application by clicking the links in the nav bar]({REPO_URL}/issues/3) |
 
-| 📖 Self-study learning modules                                                                                                                                                      | Description                                                                                                                                              |
-| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [Git Presentation](https://youtu.be/zeC5iwsHllk) ([slides](https://docs.google.com/presentation/d/1onRsF-5NQbky8BOac5cGsJunjBisvauQPEC4hOWPaGI/edit#slide=id.p))                    | Learn basic git commands needed for collaboration and version control.                                                                                   |
-| [Code Review Presentation](https://youtu.be/QcItLjFJ_Us) ([slides](https://docs.google.com/presentation/d/1GP_X91rd3W50GN6FjcLfAge8SD0O45qe7qdtHPO_D2I/edit?pli=1#slide=id.p))      | Learn how to complete an effective code review on a teammate's pull request.                                                                             |
-| [Communication for Devs Presentation](https://youtu.be/LVjG3qxtQX0) ([slides](https://docs.google.com/presentation/d/1tD8BH7WmY-ZPUPG1ZYjCmnLLsigMWjxt4xXVyeXrI_c/edit?usp=sharing) | Discover the value of effective communication for developers and gain valuable insights to enhance collaboration through better communication practices. |
-| [Pair Programming Presentation](https://youtu.be/yFVJ2gph_Uc) ([slides](https://docs.google.com/presentation/d/1dagfsS1zuiH1lDdVIhecVDU0vsDxgZu_Qf0fn3gOiF0/edit#slide=id.p))       | Understand the basics of effective pair programming and the essential roles involved for maximum productivity and success.                               |
-| Agile Presentation ([slides only](https://docs.google.com/presentation/d/1nQcgNFffFpyhjUMIjfRSdeSDsrWLYd8dqk-Z0FCkeBU/edit#slide=id.p))                                             |
+| 📖 Learning Modules                                                                                                                                                            | Description                                                                                                           |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------- |
+| [Code Review Presentation](https://youtu.be/QcItLjFJ_Us) ([slides](https://docs.google.com/presentation/d/1GP_X91rd3W50GN6FjcLfAge8SD0O45qe7qdtHPO_D2I/edit?pli=1#slide=id.p)) | Attend this week's Open Office Hours and learn how to complete an effective code review on a teammate's pull request. |
 
 ### Week 2, {DATES_WEEK_2}
 
@@ -155,9 +151,9 @@ This document serves as your comprehensive guide to all available resources nece
 
 | 👋 Sync meetings                   | Agenda                                                                                                                            |
 | ---------------------------------- | --------------------------------------------------------------------------------------------------------------------------------- |
-| Final Weekly Sync                  | - Demo <br> - Retro <br> - Planning                                                                                                            |
+| Final Weekly Sync                  | - Demo <br> - Retro <br> - Planning                                                                                               |
 | Pair Programming / Design planning | During this week, you should aim to collaborate as a full team to create a plan for implementing an engagind design for your app. |
-| Job Fit Mock Interview             | Work with your team of mentors to schedule an individual job fit mock interview this week. |
+| Job Fit Mock Interview             | Work with your team of mentors to schedule an individual job fit mock interview this week.                                        |
 | Optional                           | Office Hours                                                                                                                      |
 
 | 🤝 Developer pairings | 🖥 Assigned Github issue                                                                |
@@ -171,15 +167,15 @@ This document serves as your comprehensive guide to all available resources nece
 
 ### Week 10, {DATES_WEEK_10}
 
-| 👋 Sync meetings          | Agenda                                                                                                                          |
-| ------------------------- | ------------------------------------------------------------------------------------------------------------------------------- |
-| Technical Mock Interview  | Work with your team of mentors to schedule a technical mock interview where you'll cover the take-home assignment you completed last week.   |
-| Cohort Demo / Celebration | Join all the teams in your cohort to walk through your app and celebrate all the hard work we've put in over the last 10 weeks! |
+| 👋 Sync meetings          | Agenda                                                                                                                                     |
+| ------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------ |
+| Technical Mock Interview  | Work with your team of mentors to schedule a technical mock interview where you'll cover the take-home assignment you completed last week. |
+| Cohort Demo / Celebration | Join all the teams in your cohort to walk through your app and celebrate all the hard work we've put in over the last 10 weeks!            |
 
 | 🤝 Developer pairings | 🖥 Assigned Github issue                                                                |
 | --------------------- | --------------------------------------------------------------------------------------- |
 |                       | No assigned issues. This is a good chance to address any emergent work defined by team. |
 
-| 📖 Self-study learning modules                                                                                           |
-| ------------------------------------------------------------------------------------------------------------------------ |
+| 📖 Self-study learning modules                                                                                             |
+| -------------------------------------------------------------------------------------------------------------------------- |
 | Review, prepare for, schedule, and complete the [Technical Mock Interview](./learning-modules/mock-interview-technical.md) |
