@@ -24,6 +24,10 @@ This document serves as your comprehensive guide to all available resources nece
 | {DEV_1} & {DEV_2}     | [2. As a user, I want to read all of my shopping lists and the items in them]({REPO_URL}/issues/2)                                          |
 | {DEV_3} & {DEV_4}     | [3. As a user, I want to be able to navigate to all the pages in the application by clicking the links in the nav bar]({REPO_URL}/issues/3) |
 
+| 📖 Self-study learning modules                                                               |
+| -------------------------------------------------------------------------------------------- |
+| No Self-study learning modules this week. A great time to catch up on any outstanding tasks! |
+
 ### Week 2, {DATES_WEEK_2}
 
 | 👋 Sync meetings | Agenda                                                                                                                                                                                                                                                                                                                                                                            |
@@ -53,6 +57,10 @@ This document serves as your comprehensive guide to all available resources nece
 | --------------------- | ----------------------------------------------------------------------------------------------------------------------- |
 | {DEV_3} & {DEV_1}     | [6. As a user, I want to be able to invite others to an existing shopping list.]({REPO_URL}/issues/6)                   |
 | {DEV_4} & {DEV_2}     | [7. As a user, I want to filter my shopping list to make it easier to locate an item in the list.]({REPO_URL}/issues/7) |
+
+| 📖 Self-study learning modules                                                               |
+| -------------------------------------------------------------------------------------------- |
+| No Self-study learning modules this week. A great time to catch up on any outstanding tasks! |
 
 ### Week 4, {DATES_WEEK_4}
 
@@ -84,11 +92,15 @@ This document serves as your comprehensive guide to all available resources nece
 | {DEV_2} & {DEV_3}     | [10. As a user, I want to be alerted when I’m entering an empty item or an item that's already on my list.]({REPO_URL}/issues/10)                                                                       |
 | {DEV_1} & {DEV_4}     | [11. As an item, I want my estimated next purchase date to be computed at the time my purchase is recorded in the database so the app can learn how often I buy different items.]({REPO_URL}/issues/11) |
 
+| 📖 Self-study learning modules                                                               |
+| -------------------------------------------------------------------------------------------- |
+| No Self-study learning modules this week. A great time to catch up on any outstanding tasks! |
+
 ### Week 6, {DATES_WEEK_6}
 
 | 👋 Sync meetings | Agenda                                                                                                                                                            |
 | ---------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Weekly Sync      | - Demo issues #10 & #11 <br> - Retro <br> - Collabies will be presented with issue #12 and issue #13                                                              |
+| Weekly Sync      | - Demo issues #10 & #11 <br> - Retros <br> - Collabies will be presented with issue #12 and issue #13                                                             |
 | Pair Programming | Schedule a pairing session(s) with your partner early in the week to complete the development work required to meet the acceptance criteria of your Github issue. |
 | Optional         | Office Hours                                                                                                                                                      |
 
@@ -105,41 +117,40 @@ This document serves as your comprehensive guide to all available resources nece
 
 | 👋 Sync meetings | Agenda                                                                                                                                                            |
 | ---------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Weekly Sync      | - Demo issues #12 & #13 <br> - Retro <br> - Collabies will be presented with issue #14                                                                            |
+| Weekly Sync      | - Demo issues #12 & #13 <br> - Collabies will be presented with issue #14                                                                                         |
 | Pair Programming | Schedule a pairing session(s) with your partner early in the week to complete the development work required to meet the acceptance criteria of your Github issue. |
-| Optional         | - Office Hours <br> - Design meeting with Mark                                                                                                                    |
+| Optional         | - Office Hours <br> - Design meeting with Mark (schedule this week or next)                                                                                       |
 
 | 🤝 Developer pairings | 🖥 Assigned Github issue                                                                 |
 | --------------------- | ---------------------------------------------------------------------------------------- |
 | Full team             | [14. As a user, I want the app to look professional and welcoming]({REPO_URL}/issues/14) |
 
-| 📖 Self-study learning modules                                                     | Description                                                                                                                     |
-| ---------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------- |
-| [How to rock the technical interview](https://www.youtube.com/watch?v=X-7eKmYqM8M) | This video is packed with invaluable insights to enhance your success in a variety of technical interviews.                     |
-| [Pair interview practice](./learning-modules/pair-interview-practice.md)           | Familiarize yourself with these questions so you can pair up with a fellow Collabie next week and engage in effective practice. |
+| 📖 Self-study learning modules                                                     | Description                                                                                                 |
+| ---------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------- |
+| [How to rock the technical interview](https://www.youtube.com/watch?v=X-7eKmYqM8M) | This video is packed with invaluable insights to enhance your success in a variety of technical interviews. |
 
 ### Week 8, {DATES_WEEK_8}
 
 | 👋 Sync meetings                   | Agenda                                                                                                                            |
 | ---------------------------------- | --------------------------------------------------------------------------------------------------------------------------------- |
-| Weekly Sync                        | - Demo <br> - Planning                                                                                                            |
+| Weekly Sync                        | - Demo <br> - Retros <br> - Planning                                                                                              |
 | Pair Programming / Design planning | During this week, you should aim to collaborate as a full team to create a plan for implementing an engagind design for your app. |
 | Pair Interview Practice            | Get together with some fellow Collabies to practice some common interview questions.                                              |
-| Optional                           | - Office Hours <br> - Design meeting with Mark                                                                                    |
+| Optional                           | - Office Hours <br> - Design meeting with Mark (if you did not meet last week)                                                    |
 
 | 🤝 Developer pairings | 🖥 Assigned Github issue                                                                |
 | --------------------- | --------------------------------------------------------------------------------------- |
 |                       | No assigned issues. This is a good chance to address any emergent work defined by team. |
 
-| 📖 Self-study learning modules                                                               |
-| -------------------------------------------------------------------------------------------- |
-| No Self-study learning modules this week. A great time to catch up on any outstanding tasks! |
+| 📖 Self-study learning modules                                           | Description                                                                                                                     |
+| ------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------- |
+| [Pair interview practice](./learning-modules/pair-interview-practice.md) | Familiarize yourself with these questions so you can pair up with a fellow Collabie next week and engage in effective practice. |
 
 ### Week 9, {DATES_WEEK_9}
 
 | 👋 Sync meetings                   | Agenda                                                                                                                            |
 | ---------------------------------- | --------------------------------------------------------------------------------------------------------------------------------- |
-| Final Weekly Sync                  | - Demo <br> - Retro <br> - Planning                                                                                               |
+| Final Weekly Sync                  | - Demo <br> - Planning                                                                                                            |
 | Pair Programming / Design planning | During this week, you should aim to collaborate as a full team to create a plan for implementing an engagind design for your app. |
 | Job Fit Mock Interview             | Work with your team of mentors to schedule an individual job fit mock interview this week.                                        |
 | Optional                           | Office Hours                                                                                                                      |
@@ -155,10 +166,10 @@ This document serves as your comprehensive guide to all available resources nece
 
 ### Week 10, {DATES_WEEK_10}
 
-| 👋 Sync meetings          | Agenda                                                                                                                                     |
-| ------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------ |
-| Technical Mock Interview  | Work with your team of mentors to schedule a technical mock interview where you'll cover the take-home assignment you completed last week. |
-| Cohort Demo / Celebration | Join all the teams in your cohort to walk through your app and celebrate all the hard work we've put in over the last 10 weeks!            |
+| 👋 Sync meetings          | Agenda                                                                                                                                                     |
+| ------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Technical Mock Interview  | - Retros <br> - Work with your team of mentors to schedule a technical mock interview where you'll cover the take-home assignment you completed last week. |
+| Cohort Demo / Celebration | Join all the teams in your cohort to walk through your app and celebrate all the hard work we've put in over the last 10 weeks!                            |
 
 | 🤝 Developer pairings | 🖥 Assigned Github issue                                                                |
 | --------------------- | --------------------------------------------------------------------------------------- |
