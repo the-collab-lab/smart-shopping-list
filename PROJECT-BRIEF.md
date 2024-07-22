@@ -47,11 +47,11 @@ This document serves as your comprehensive guide to all available resources nece
 
 ### Week 3, {DATES_WEEK_3}
 
-| 👋 Sync meetings | Agenda                                                                                                                                                                                                                 |
-| ---------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Weekly Sync      | - Demo issues #4 & #5 <br> - [Accesibility Presentation](https://docs.google.com/presentation/d/1ux4HXGj3XAGZRD7qvOpjl36FYbTcUYGaaBHywc95taY/edit#slide=id.p) <br> - Collabies will be presented with issues #6 and #7 |
-| Pair Programming | Schedule a pairing session(s) with your partner early in the week to complete the development work required to meet the acceptance criteria of your Github issue.                                                      |
-| Optional         | Office Hours                                                                                                                                                                                                           |
+| 👋 Sync meetings | Agenda                                                                                                                                                                                                                  |
+| ---------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Weekly Sync      | - Demo issues #4 & #5 <br> - [Accessibility Presentation](https://docs.google.com/presentation/d/1ux4HXGj3XAGZRD7qvOpjl36FYbTcUYGaaBHywc95taY/edit#slide=id.p) <br> - Collabies will be presented with issues #6 and #7 |
+| Pair Programming | Schedule a pairing session(s) with your partner early in the week to complete the development work required to meet the acceptance criteria of your Github issue.                                                       |
+| Optional         | Office Hours                                                                                                                                                                                                            |
 
 | 🤝 Developer pairings | 🖥 Assigned Github issue                                                                                                |
 | --------------------- | ----------------------------------------------------------------------------------------------------------------------- |
