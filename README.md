@@ -58,6 +58,10 @@ After you’ve cloned the project locally and updated the dependencies, run the 
 
 🎉 You did it! You’re ready to start contributing!
 
+## Review basic git commands you'll use in this project
+
+- [Git Presentation](https://youtu.be/zeC5iwsHllk) ([slides](https://docs.google.com/presentation/d/1onRsF-5NQbky8BOac5cGsJunjBisvauQPEC4hOWPaGI/edit#slide=id.p))
+
 ## Make your first contribution
 
 You’ll want to make your first contribution to this repo before your kick-off call! This will help make sure you’re ready to go on day one.
