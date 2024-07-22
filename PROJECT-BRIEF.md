@@ -43,26 +43,22 @@ This document serves as your comprehensive guide to all available resources nece
 
 ### Week 3, {DATES_WEEK_3}
 
-| 👋 Sync meetings | Agenda                                                                                                                                                            |
-| ---------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Weekly Sync      | - Demo issues #4 & #5 <br> - Retro <br> - Collabies will be presented with issues #6 and #7                                                                       |
-| Pair Programming | Schedule a pairing session(s) with your partner early in the week to complete the development work required to meet the acceptance criteria of your Github issue. |
-| Optional         | Office Hours                                                                                                                                                      |
+| 👋 Sync meetings | Agenda                                                                                                                                                                                                                 |
+| ---------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Weekly Sync      | - Demo issues #4 & #5 <br> - [Accesibility Presentation](https://docs.google.com/presentation/d/1ux4HXGj3XAGZRD7qvOpjl36FYbTcUYGaaBHywc95taY/edit#slide=id.p) <br> - Collabies will be presented with issues #6 and #7 |
+| Pair Programming | Schedule a pairing session(s) with your partner early in the week to complete the development work required to meet the acceptance criteria of your Github issue.                                                      |
+| Optional         | Office Hours                                                                                                                                                                                                           |
 
 | 🤝 Developer pairings | 🖥 Assigned Github issue                                                                                                |
 | --------------------- | ----------------------------------------------------------------------------------------------------------------------- |
 | {DEV_3} & {DEV_1}     | [6. As a user, I want to be able to invite others to an existing shopping list.]({REPO_URL}/issues/6)                   |
 | {DEV_4} & {DEV_2}     | [7. As a user, I want to filter my shopping list to make it easier to locate an item in the list.]({REPO_URL}/issues/7) |
 
-| 📖 Self-study learning modules                         | Description                                                                                                                                                                            |
-| ------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [How to tell your story](https://youtu.be/Zhtd-DdTwSs) | Refine the skill of effectively telling your story in interviews and when meeting new people, allowing you to leave a lasting impression and stand out during the application process. |
-
 ### Week 4, {DATES_WEEK_4}
 
 | 👋 Sync meetings | Agenda                                                                                                                                                            |
 | ---------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Weekly Sync      | - Demo issues #6 & #7 <br> - Discuss Self-study learning Modules <br> - Collabies will be presented with issue #8 and issue #9                                    |
+| Weekly Sync      | - Demo issues #6 & #7 <br> - Retros <br> - Collabies will be presented with issue #8 and issue #9                                                                 |
 | Pair Programming | Schedule a pairing session(s) with your partner early in the week to complete the development work required to meet the acceptance criteria of your Github issue. |
 | Optional         | Office Hours                                                                                                                                                      |
 
