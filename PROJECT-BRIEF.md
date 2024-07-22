@@ -73,26 +73,22 @@ This document serves as your comprehensive guide to all available resources nece
 
 ### Week 5, {DATES_WEEK_5}
 
-| 👋 Sync meetings | Agenda                                                                                                                                                            |
-| ---------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Weekly Sync      | - Demo issues #8 & #9 <br> - Retro <br> - Collabies will be presented with issue #10 and issue #11                                                                |
-| Pair Programming | Schedule a pairing session(s) with your partner early in the week to complete the development work required to meet the acceptance criteria of your Github issue. |
-| Optional         | Office Hours                                                                                                                                                      |
+| 👋 Sync meetings | Agenda                                                                                                                                                                                                                 |
+| ---------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Weekly Sync      | - Demo issues #8 & #9 <br> - [Agile Presentation](https://docs.google.com/presentation/d/1nQcgNFffFpyhjUMIjfRSdeSDsrWLYd8dqk-Z0FCkeBU/edit#slide=id.p) <br> - Collabies will be presented with issue #10 and issue #11 |
+| Pair Programming | Schedule a pairing session(s) with your partner early in the week to complete the development work required to meet the acceptance criteria of your Github issue.                                                      |
+| Optional         | Office Hours                                                                                                                                                                                                           |
 
 | 🤝 Developer pairings | 🖥 Assigned Github issue                                                                                                                                                                                |
 | --------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | {DEV_2} & {DEV_3}     | [10. As a user, I want to be alerted when I’m entering an empty item or an item that's already on my list.]({REPO_URL}/issues/10)                                                                       |
 | {DEV_1} & {DEV_4}     | [11. As an item, I want my estimated next purchase date to be computed at the time my purchase is recorded in the database so the app can learn how often I buy different items.]({REPO_URL}/issues/11) |
 
-| 📖 Self-study learning modules                                             | Description                                                                                                                                                           |
-| -------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [Navigating finances during a career change](https://youtu.be/xtkgOmFPUJU) | This presentation will teach you invaluable techniques on how to effectively navigate finances during a career change, setting you up for success in your transition. |
-
 ### Week 6, {DATES_WEEK_6}
 
 | 👋 Sync meetings | Agenda                                                                                                                                                            |
 | ---------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Weekly Sync      | - Demo issues #10 & #11 <br> - Discuss Self-study learning Modules <br> - Collabies will be presented with issue #12 and issue #13                                |
+| Weekly Sync      | - Demo issues #10 & #11 <br> - Retro <br> - Collabies will be presented with issue #12 and issue #13                                                              |
 | Pair Programming | Schedule a pairing session(s) with your partner early in the week to complete the development work required to meet the acceptance criteria of your Github issue. |
 | Optional         | Office Hours                                                                                                                                                      |
 
