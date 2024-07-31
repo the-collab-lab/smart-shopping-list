@@ -168,7 +168,7 @@ This document serves as your comprehensive guide to all available resources nece
 
 | 👋 Sync meetings          | Agenda                                                                                                                                                    |
 | ------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Technical Mock Interview  | - Retro <br> - Work with your team of mentors to schedule a technical mock interview where you'll cover the take-home assignment you completed last week. |
+| [Technical Mock Interview](./learning-modules/mock-interview-technical.md)   | - Work with your team of mentors to schedule a technical mock interview where you'll cover the take-home assignment you completed last week. |
 | Cohort Demo / Celebration | Join all the teams in your cohort to walk through your app and celebrate all the hard work we've put in over the last 10 weeks!                           |
 
 | 🤝 Developer pairings | 🖥 Assigned Github issue                                                                |
