@@ -134,7 +134,7 @@ This document serves as your comprehensive guide to all available resources nece
 | 👋 Sync meetings                   | Agenda                                                                                                                            |
 | ---------------------------------- | --------------------------------------------------------------------------------------------------------------------------------- |
 | Weekly Sync                        | - Demo <br> - Retro <br> - Planning                                                                                               |
-| Pair Programming / Design planning | During this week, you should aim to collaborate as a full team to create a plan for implementing an engagind design for your app. |
+| Pair Programming / Design planning | During this week, you should aim to collaborate as a full team to create a plan for implementing an engaging design for your app. |
 | Pair Interview Practice            | Get together with some fellow Collabies to practice some common interview questions.                                              |
 | Optional                           | Office Hours                                                                                                                      |
 
@@ -151,7 +151,7 @@ This document serves as your comprehensive guide to all available resources nece
 | 👋 Sync meetings                   | Agenda                                                                                                                            |
 | ---------------------------------- | --------------------------------------------------------------------------------------------------------------------------------- |
 | Final Weekly Sync                  | - Demo <br> - Planning                                                                                                            |
-| Pair Programming / Design planning | During this week, you should aim to collaborate as a full team to create a plan for implementing an engagind design for your app. |
+| Pair Programming / Design planning | During this week, you should aim to collaborate as a full team to create a plan for implementing an engaging design for your app. |
 | Job Fit Mock Interview             | Work with your team of mentors to schedule an individual job fit mock interview this week.                                        |
 | Optional                           | Office Hours                                                                                                                      |
 
